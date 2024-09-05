@@ -18,7 +18,9 @@
 
 # Notes
 
+- Objectif la page "Oeuvres" n'est pas de vendre les jeux mais mettre en avant le savoir faire de l'entreprise !
 - Faire une card par jeux en précisant le studio, l'éditeur, date de sortie, plateforme, notes ,?
+- Card avec de la parallaxe ? https://www.w3schools.com/howto/howto_css_parallax.asp
 - Utiliser les publications officielles présentes sur https://www.quanticdream.com/fr/press pour constituer la sitographie / bibliographie
 - Contenu pour le dossier :
   - type de jeux développé (fps,...)
