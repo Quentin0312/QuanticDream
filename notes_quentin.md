@@ -30,5 +30,7 @@
 # Ressources (pour produire la sitographie)
 
 https://fr.wikipedia.org/wiki/Quantic_Dream (Wikipédia n'est pas un source...)
+
 https://www.quanticdream.com/
+
 https://www.quanticdream.com/fr/press
