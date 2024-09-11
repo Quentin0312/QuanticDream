@@ -14,5 +14,5 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 // Add a pin to the map
 var marker = L.marker(lat_lng).addTo(map);
 
-// Setup a pop-up on the map to define address
+// Add a popup to the pin to show address
 marker.bindPopup("<b>Adresse :</b><br>20 chemin pot de fleur").openPopup();
