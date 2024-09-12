@@ -9,7 +9,9 @@ QUANTIC DREAM (https://login.github.io/projet/)
 Etudiant 1 (référent du groupe) : OUADAH Kheira (mailto:kheira.ouadah@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 2 : OZBUDAK Suleyman (mailto:suleyman.ozbudak@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
 Etudiant 3 : PAYET Quentin (mailto:quentin.payet2@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 4 : MOREL Gabin (mailto:gabien.morel2@edu.univ-fcomte.fr?## Présentation 
+Etudiant 4 : MOREL Gabin (mailto:gabien.morel2@edu.univ-fcomte.fr?
+
+## Présentation 
 
 Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise ******** et sert de vitrine pour présenter l'entreprise, ses activité, son organisation et son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de ************. 
 
@@ -62,8 +64,11 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 ### Recherches d'informations
 
-- Nom Prénom
-- Nom Prénom
+- OZBUDAK Suleyman
+- RIETZ Ethan
+- PAYET Quentin
+- MOREL Gabin
+- OUADAH Kheira
 
 
 ### Rapport économique
@@ -84,15 +89,9 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - Page organisation
 
 
-## Contributeurssubject=SAE_1_05_06)  
-Etudiant 5 : RIETZ Ethan (mailto:ethan.rietz@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+## Contributeurs subject=SAE_1_05_06)  
+(Etudiant 5 : RIETZ Ethan (mailto:ethan.rietz@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
-# Présentation du projet
-
-
-## Présentation 
-
-Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise ******** et sert de vitrine pour présenter l'entreprise, ses activité, son organisation et son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de ************. 
 
 ## Choix de conception  
 
@@ -100,6 +99,8 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 
 ## Développement Site Web et Validation des pages
+
+
 
 ### Page d'accueil
 
