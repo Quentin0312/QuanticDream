@@ -38,7 +38,8 @@ ou
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
 
-ou 
+ou Répartition du travail
+Planification - Diagra
 
 <img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
@@ -136,34 +137,6 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 <br>
 <img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
-## Répartition du travail
-
-### Planification - Diagramme de GANTT
-
-- Nom Prénom
-
-### Recherches d'informations
-
-- Nom Prénom
-- Nom Prénom
-
-
-### Rapport économique
-
-- Nom Prénom
-- Nom Prénom
-- Nom Prénom
-
-### Développement site
-
-- Nom Prénom
-  - Page d’accueil
-  - "Template" de page (Navbar/Footer)
-  - Page présentation
-- Nom Prénom
-  - Page histoire
-- Nom Prénom
-  - Page organisation
 
 
 ## Contributeurs
