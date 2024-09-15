@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-08-31" view-index="0" gantt-divider-location="1001" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-08-30" view-index="0" gantt-divider-location="826" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd15" name="Notes" width="20" order="0"/>
-        <field id="tpd3" name="Nom" width="524" order="0"/>
-        <field id="tpd4" name="Date de début" width="196" order="1"/>
-        <field id="tpd5" name="Date de fin" width="198" order="2"/>
-        <field id="tpd6" name="Durée" width="67" order="3"/>
+        <field id="tpd3" name="Nom" width="431" order="0"/>
+        <field id="tpd4" name="Date de début" width="139" order="1"/>
+        <field id="tpd5" name="Date de fin" width="119" order="2"/>
+        <field id="tpd6" name="Durée" width="121" order="3"/>
+        <option id="taskLabelRight" value=""/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -45,8 +46,8 @@
         <task id="26" uid="aef4887aa6ec40d39ccae2039b2ef3f1" name="Mettre en place une carte interactive dans le footer" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
         <task id="27" uid="da6b6e9892704ff690752c9e1a259132" name="Ajouter une traduction anglaise au site" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
         <task id="28" uid="d0177e138498472087e3ca94d769bb7e" name="Envoyer mail à Quantic Dream pour avoir des informations" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-        <task id="29" uid="078aa53ad2914102bbc7c7a63bd18530" name="Faire le planning previsionel" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
         <task id="30" uid="2ad1401435f046d8b1ca333dc2839469" name="Rendre le livrable : Questionnaire 2" meeting="false" start="2024-09-05" duration="1" complete="0" expand="true"/>
+        <task id="29" uid="078aa53ad2914102bbc7c7a63bd18530" name="Faire le planning previsionel" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
         <task id="32" uid="1a882052181f476b990c4d25472b6cae" name="Noter le temps de travail pour le planning effectif" meeting="false" start="2024-09-05" duration="1" complete="0" expand="true">
             <depend id="33" type="2" difference="0" hardness="Strong"/>
         </task>
@@ -54,46 +55,81 @@
             <depend id="31" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="31" uid="deffae0d794043aabd3f37719a6589cb" name="Rendre le livrable : Planning effectif" meeting="true" start="2024-09-09" duration="0" complete="0" expand="true"/>
-        <task id="19" uid="e3ba4f4a24b34ab7b264a11d7b2c0ada" name="Faire la sitographie" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
-            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        <task id="34" uid="0a66d04d93ef43bdaecd341f313bf18c" name="Rapport" meeting="false" start="2024-09-09" duration="2" complete="0" expand="false">
+            <task id="20" uid="a10d857de4a64c69a08c6e5aa7a84100" name="Rédiger le contenu de la partie K" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" uid="96b57059352942ad96071ce92890a0d7" name="Rédiger le contenu de la partie Q" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="1fcb37b1f6ab41c9a9b19551504be0b9" name="Rédiger le contenu de la partie S" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" uid="d72bd0ab80cc4c2ba96d9343ef203fca" name="Rédiger le contenu de la partie E" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" uid="e3609c53247a438ba3c0fffb6e9f106c" name="Rédiger le contenu de la partie G" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="e3ba4f4a24b34ab7b264a11d7b2c0ada" name="Faire la sitographie" meeting="false" start="2024-09-10" duration="1" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="0ad8f77038f4498895b347af13a671c1" name="Rendre le rapport" meeting="true" start="2024-09-11" duration="0" complete="0" expand="true"/>
         </task>
-        <task id="20" uid="a10d857de4a64c69a08c6e5aa7a84100" name="Rédiger le contenu de la partie K" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
-            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        <task id="9" uid="a27f36b3ada44d9aaaa3bc6ef6327bce" name="Première version du site" meeting="false" start="2024-09-09" duration="1" complete="0" expand="false">
+            <task id="16" uid="3b673057d4eb478285af1e717fb3fc0f" name="Faire la page G" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" uid="5e7de82ff71d476ab9104808b24727ca" name="Faire la page S" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="5926351bb7ec4002b14b01cbbd05d29e" name="Faire la page Q" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="6dd0c8fc4cd14cbab326d037f1cbc901" name="Faire la page E" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="e1e2aae3c13242d8937626d65e3f5d67" name="Faire la page K" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="d6c6c2884e3d4f24baad57569d3ba79e" name="Faire la page principale" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="538a8ac9f1094fa3b53509a22164a900" name="Peaufiner le readme" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" uid="a42a9e2e79ac49d2ab165ae8d04040d2" name="Envoyer le livrable correspondant" meeting="true" start="2024-09-10" duration="0" complete="0" expand="true"/>
         </task>
-        <task id="22" uid="96b57059352942ad96071ce92890a0d7" name="Rédiger le contenu de la partie Q" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
-            <depend id="18" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="25" uid="1fcb37b1f6ab41c9a9b19551504be0b9" name="Rédiger le contenu de la partie S" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
-            <depend id="18" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="24" uid="d72bd0ab80cc4c2ba96d9343ef203fca" name="Rédiger le contenu de la partie E" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
-            <depend id="18" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="23" uid="e3609c53247a438ba3c0fffb6e9f106c" name="Rédiger le contenu de la partie G" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true">
-            <depend id="18" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="18" uid="0ad8f77038f4498895b347af13a671c1" name="Rendre le rapport" meeting="true" start="2024-09-10" duration="0" complete="0" expand="true"/>
-        <task id="9" uid="a27f36b3ada44d9aaaa3bc6ef6327bce" name="Envoyer livrable de la première version du site" meeting="false" start="2024-09-09" duration="1" complete="0" expand="false">
-            <task id="16" uid="3b673057d4eb478285af1e717fb3fc0f" name="Faire la page G" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-            <task id="15" uid="5e7de82ff71d476ab9104808b24727ca" name="Faire la page S" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-            <task id="14" uid="5926351bb7ec4002b14b01cbbd05d29e" name="Faire la page Q" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-            <task id="13" uid="6dd0c8fc4cd14cbab326d037f1cbc901" name="Faire la page E" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-            <task id="12" uid="e1e2aae3c13242d8937626d65e3f5d67" name="Faire la page K" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-            <task id="11" uid="d6c6c2884e3d4f24baad57569d3ba79e" name="Faire la page principale" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-            <task id="10" uid="538a8ac9f1094fa3b53509a22164a900" name="Peaufiner le readme" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="3" uid="e886b2c913544f8494e9e205ef511f45" name="Rendre le livrable : Questionnaire 1" meeting="false" start="2024-09-12" duration="6" complete="0" expand="false">
-            <task id="7" uid="d595baf6fd844de29c25d5277b85cfbc" name="Définir un plan concernant le contenu textuel du site" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+        <task id="3" uid="e886b2c913544f8494e9e205ef511f45" name="Questionnaire 1" meeting="false" start="2024-09-12" duration="6" complete="0" expand="true">
+            <task id="7" uid="d595baf6fd844de29c25d5277b85cfbc" name="Définir un plan concernant le contenu textuel du site" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
             <task id="4" uid="fb3bb1a69603486bb62f85f7a5216719" name="Lister des sites à utiliser comme inspirations" meeting="false" start="2024-09-16" duration="1" complete="0" expand="true">
                 <depend id="5" type="2" difference="0" hardness="Strong"/>
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="5" uid="0e53079316fc4f34b55b554bca6fb85c" name="Réaliser 3 zoning" meeting="false" start="2024-09-17" duration="2" complete="0" expand="true">
                 <depend id="6" type="2" difference="0" hardness="Strong"/>
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="6" uid="08f60ced658d427dae7711baa1db39d4" name="Réaliser 3 wireframe" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true"/>
+            <task id="6" uid="08f60ced658d427dae7711baa1db39d4" name="Réaliser 3 wireframe" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="36" uid="160201f13eda4a17b9f1945121c0e7ca" name="Envoyer le livrable correspondant" meeting="true" start="2024-09-20" duration="0" complete="0" expand="true"/>
         </task>
     </tasks>
-    <resources/>
+    <resources>
+        <resource id="0" name="Kheira" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Gabin" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Ethan" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Suleyman" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Quentin" function="Default:0" contacts="" phone=""/>
+    </resources>
     <allocations/>
     <vacations/>
     <previous/>
