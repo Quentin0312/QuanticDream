@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-23" view-index="0" gantt-divider-location="717" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="717" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
     <description/>
-    <view zooming-state="default:4" id="gantt-chart">
+    <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd15" name="Notes" width="20" order="0"/>
         <field id="tpd3" name="Nom" width="350" order="0"/>
         <field id="tpd4" name="Date de début" width="112" order="1"/>
@@ -105,7 +105,27 @@
             </task>
             <task id="79" uid="6cdca50912d14fb4973b363bad5949e0" name="Envoyer livrable" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="40" uid="eb2b460d8dee40c6aa702ee2cedc17b0" name="Version finale du site" meeting="false" start="2024-10-07" duration="9" complete="0" expand="true">
+        <task id="34" uid="0a66d04d93ef43bdaecd341f313bf18c" name="Rapport" meeting="false" start="2024-09-23" duration="14" complete="0" expand="false">
+            <depend id="84" type="2" difference="0" hardness="Strong"/>
+            <task id="73" uid="09fe54120f1f4291994f32d990e74311" name="Faire les recherches concernant sa partie" meeting="false" start="2024-09-23" duration="1" complete="0" expand="true">
+                <depend id="84" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="72" uid="97cff1d811504011bddb68551828498c" name="Rédiger le contenu de sa partie" meeting="false" start="2024-09-23" duration="1" complete="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="84" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="e3ba4f4a24b34ab7b264a11d7b2c0ada" name="Faire la sitographie" meeting="false" start="2024-09-24" duration="1" complete="0" expand="true">
+                <depend id="84" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="0ad8f77038f4498895b347af13a671c1" name="Rendre le rapport" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+                <depend id="84" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="49" uid="37ad2d2b8d5d4e5993274029abcd40c3" name="Fonctionnalitées bonus" meeting="false" start="2024-10-07" duration="1" complete="50" expand="false">
+            <task id="26" uid="aef4887aa6ec40d39ccae2039b2ef3f1" name="Mettre en place une carte interactive dans le footer" meeting="false" start="2024-10-07" duration="1" complete="100" expand="true"/>
+            <task id="27" uid="da6b6e9892704ff690752c9e1a259132" name="Ajouter une traduction anglaise au site" meeting="false" start="2024-10-07" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="40" uid="eb2b460d8dee40c6aa702ee2cedc17b0" name="Version finale du site" meeting="false" start="2024-10-07" duration="9" complete="0" expand="false">
             <depend id="83" type="2" difference="0" hardness="Strong"/>
             <task id="64" uid="6bbc0ff089394383961fa0ef91c4ae1e" name="Remplir le fichier ods" meeting="false" start="2024-10-07" duration="1" complete="0" expand="true">
                 <depend id="83" type="2" difference="0" hardness="Strong"/>
@@ -144,22 +164,6 @@
                 <depend id="83" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="49" uid="37ad2d2b8d5d4e5993274029abcd40c3" name="Fonctionnalitées bonus" meeting="false" start="2024-09-09" duration="1" complete="50" expand="false">
-            <task id="26" uid="aef4887aa6ec40d39ccae2039b2ef3f1" name="Mettre en place une carte interactive dans le footer" meeting="false" start="2024-09-09" duration="1" complete="100" expand="true"/>
-            <task id="27" uid="da6b6e9892704ff690752c9e1a259132" name="Ajouter une traduction anglaise au site" meeting="false" start="2024-09-09" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="34" uid="0a66d04d93ef43bdaecd341f313bf18c" name="Rapport" meeting="false" start="2024-08-19" duration="3" complete="0" expand="false">
-            <task id="73" uid="09fe54120f1f4291994f32d990e74311" name="Faire les recherches concernant sa partie" meeting="false" start="2024-08-19" duration="1" complete="0" expand="true">
-                <depend id="72" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="72" uid="97cff1d811504011bddb68551828498c" name="Rédiger le contenu de sa partie" meeting="false" start="2024-08-20" duration="1" complete="0" expand="true">
-                <depend id="19" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="19" uid="e3ba4f4a24b34ab7b264a11d7b2c0ada" name="Faire la sitographie" meeting="false" start="2024-08-21" duration="1" complete="0" expand="true">
-                <depend id="18" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="18" uid="0ad8f77038f4498895b347af13a671c1" name="Rendre le rapport" meeting="true" start="2024-08-22" duration="0" complete="0" expand="true"/>
-        </task>
         <task id="55" uid="4bc0864cb3f840b3b83a32bdb5844bc7" name="Planning effectif" meeting="false" start="2024-09-05" duration="2" complete="0" expand="false">
             <task id="32" uid="1a882052181f476b990c4d25472b6cae" name="Noter le temps de travail pour le planning effectif" meeting="false" start="2024-09-05" duration="1" complete="0" expand="true">
                 <depend id="33" type="2" difference="0" hardness="Strong"/>
@@ -192,6 +196,7 @@
             <task id="51" uid="c7ffe21e950b4ccc8f7cd3c1fa0a5ded" name="Questionnaire 1 et planning" meeting="true" start="2024-09-20" duration="0" complete="0" expand="true"/>
             <task id="35" uid="a42a9e2e79ac49d2ab165ae8d04040d2" name="Site v1" meeting="true" start="2024-09-27" duration="0" complete="0" expand="true"/>
             <task id="77" uid="95892fc18fee41c98f8e153bd322e6bb" name="Questionnaire 2" meeting="true" start="2024-10-04" duration="0" complete="0" expand="true"/>
+            <task id="84" uid="f5da6577268f4af1baefae797a9b8ee5" name="Rendre le rapport" meeting="true" start="2024-10-11" duration="0" complete="0" expand="true"/>
             <task id="83" uid="1234caa566f84a98b50d0e410862c266" name="Site version finale" meeting="true" start="2024-10-18" duration="0" complete="0" expand="true"/>
         </task>
     </tasks>
