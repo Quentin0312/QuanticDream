@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="993" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="610" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd15" name="Notes" width="20" order="0"/>
-        <field id="tpd3" name="Nom" width="396" order="0"/>
-        <field id="tpd4" name="Date de début" width="102" order="1"/>
-        <field id="tpd5" name="Date de fin" width="106" order="2"/>
-        <field id="tpd6" name="Durée" width="56" order="3"/>
-        <field id="tpd7" name="Avancée" width="57" order="4"/>
-        <field id="tpd13" name="Ressources" width="260" order="5"/>
-        <option id="taskLabelRight" value=""/>
+        <field id="tpd3" name="Nom" width="390" order="0"/>
+        <field id="tpd4" name="Date de début" width="100" order="1"/>
+        <field id="tpd5" name="Date de fin" width="104" order="2"/>
+        <option id="taskLabelRight" value="resources"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -16,8 +13,8 @@
         <option id="color.recent"><![CDATA[#ff6666]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="206" order="0"/>
-        <field id="1" name="Rôle par défaut" width="90" order="1"/>
+        <field id="0" name="Nom" width="195" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
