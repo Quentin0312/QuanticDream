@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-16" view-index="0" gantt-divider-location="993" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="993" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd15" name="Notes" width="20" order="0"/>
-        <field id="tpd3" name="Nom" width="402" order="0"/>
-        <field id="tpd4" name="Date de début" width="104" order="1"/>
-        <field id="tpd5" name="Date de fin" width="108" order="2"/>
-        <field id="tpd6" name="Durée" width="57" order="3"/>
-        <field id="tpd7" name="Avancée" width="58" order="4"/>
-        <field id="tpd13" name="Ressources" width="263" order="5"/>
+        <field id="tpd3" name="Nom" width="396" order="0"/>
+        <field id="tpd4" name="Date de début" width="102" order="1"/>
+        <field id="tpd5" name="Date de fin" width="106" order="2"/>
+        <field id="tpd6" name="Durée" width="56" order="3"/>
+        <field id="tpd7" name="Avancée" width="57" order="4"/>
+        <field id="tpd13" name="Ressources" width="260" order="5"/>
         <option id="taskLabelRight" value=""/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -43,7 +43,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="60" uid="a54917008b88414d81990cac4b12243f" name="Organisation" meeting="false" start="2024-09-05" duration="1" complete="100" expand="false">
+        <task id="60" uid="a54917008b88414d81990cac4b12243f" name="Organisation" meeting="false" start="2024-09-05" duration="1" complete="100" expand="true">
             <depend id="76" type="2" difference="0" hardness="Strong"/>
             <task id="61" uid="4ef110d7c1c6445184aa5195d9a167cd" name="Définir les membres du groupe" meeting="false" start="2024-09-05" duration="1" complete="100" expand="true">
                 <depend id="76" type="2" difference="0" hardness="Strong"/>
@@ -75,7 +75,7 @@
             <task id="6" uid="08f60ced658d427dae7711baa1db39d4" name="Réaliser 3 wireframe" meeting="false" start="2024-09-18" duration="2" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="81" uid="ab5c74c6f85a4cb68b0fac62e87784e3" name="Envoyer livrable" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true">
+            <task id="81" uid="ab5c74c6f85a4cb68b0fac62e87784e3" name="Envoyer livrable" color="#ff6666" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
@@ -89,7 +89,7 @@
                 <depend id="31" type="2" difference="0" hardness="Strong"/>
                 <depend id="86" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="31" uid="deffae0d794043aabd3f37719a6589cb" name="Rendre le livrable : Planning effectif" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <task id="31" uid="deffae0d794043aabd3f37719a6589cb" name="Rendre le livrable : Planning effectif" color="#ff6666" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
                 <depend id="86" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
@@ -107,7 +107,7 @@
             <task id="39" uid="0bf41f95cdec413594fcfd5b18863532" name="Compléter le fichier ods" meeting="false" start="2024-09-23" duration="1" complete="0" expand="true">
                 <depend id="35" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="80" uid="890901b9a97d4c708f4e1ae8743ac846" name="Envoyer livrables" meeting="false" start="2024-09-26" duration="1" complete="0" expand="true">
+            <task id="80" uid="890901b9a97d4c708f4e1ae8743ac846" name="Envoyer livrables" color="#ff6666" meeting="false" start="2024-09-26" duration="1" complete="0" expand="true">
                 <depend id="35" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
@@ -119,7 +119,7 @@
             <task id="58" uid="04eecc7439764d4b99d85aa8f536aa63" name="Produire 2 style file pour proposition" meeting="false" start="2024-09-23" duration="4" complete="0" expand="true">
                 <depend id="77" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="79" uid="6cdca50912d14fb4973b363bad5949e0" name="Envoyer livrable" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
+            <task id="79" uid="6cdca50912d14fb4973b363bad5949e0" name="Envoyer livrable" color="#ff6666" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
         </task>
         <task id="34" uid="0a66d04d93ef43bdaecd341f313bf18c" name="Rapport" meeting="false" start="2024-09-23" duration="14" complete="0" expand="true">
             <depend id="84" type="2" difference="0" hardness="Strong"/>
@@ -134,7 +134,7 @@
             <task id="19" uid="e3ba4f4a24b34ab7b264a11d7b2c0ada" name="Faire la sitographie" meeting="false" start="2024-10-02" duration="1" complete="0" expand="true">
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="18" uid="0ad8f77038f4498895b347af13a671c1" name="Rendre le rapport" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <task id="18" uid="0ad8f77038f4498895b347af13a671c1" name="Rendre le rapport" color="#ff6666" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
@@ -149,7 +149,7 @@
                 <depend id="68" type="2" difference="0" hardness="Strong"/>
                 <depend id="87" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="89" uid="2178e3963ac14f0dae5af12578477097" name="Envoyer le diapo" meeting="false" start="2024-10-22" duration="1" complete="0" expand="true">
+            <task id="89" uid="2178e3963ac14f0dae5af12578477097" name="Envoyer le diapo" color="#ff6666" meeting="false" start="2024-10-22" duration="1" complete="0" expand="true">
                 <depend id="90" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="68" uid="724783fe139d4162b32fd6fdaa4a2050" name="Préparer les potentielles questions" meeting="false" start="2024-10-09" duration="3" complete="0" expand="true">
@@ -159,7 +159,7 @@
             <task id="69" uid="d981ee3afa0d4013907ece187fbf06c2" name="Répéter" meeting="false" start="2024-10-14" duration="2" complete="0" expand="true">
                 <depend id="87" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="88" uid="1cdce7fc518842b4acdd2d289a34ea8d" name="Dernier preparatifs" meeting="false" start="2024-10-23" duration="1" complete="0" expand="true">
+            <task id="88" uid="1cdce7fc518842b4acdd2d289a34ea8d" name="Dernier preparatifs" color="#ff6666" meeting="false" start="2024-10-23" duration="1" complete="0" expand="true">
                 <depend id="87" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
@@ -202,7 +202,7 @@
             <task id="44" uid="0803bfd3073644d0bbb785f7405cfef7" name="Mettre en place le bitbucket &quot;page&quot;" meeting="false" start="2024-10-11" duration="1" complete="0" expand="true">
                 <depend id="83" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="82" uid="7c0406179d434da9ae374c84539e8ebd" name="Envoyer livrable" meeting="false" start="2024-10-17" duration="1" complete="0" expand="true">
+            <task id="82" uid="7c0406179d434da9ae374c84539e8ebd" name="Envoyer livrable" color="#ff6666" meeting="false" start="2024-10-17" duration="1" complete="0" expand="true">
                 <depend id="83" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
@@ -212,11 +212,11 @@
                 <depend id="53" type="2" difference="0" hardness="Strong"/>
                 <depend id="85" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="53" uid="a090439904164a2f9ab144bd77da47a0" name="Envoyer le mail correspondant" meeting="false" start="2024-10-17" duration="1" complete="0" expand="true">
+            <task id="53" uid="a090439904164a2f9ab144bd77da47a0" name="Envoyer le mail correspondant" color="#ff6666" meeting="false" start="2024-10-17" duration="1" complete="0" expand="true">
                 <depend id="85" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="74" uid="8a7d0852b8274999b909c4db34ab5c6c" name="Dates butoirs" meeting="false" start="2024-09-06" duration="34" complete="0" expand="false">
+        <task id="74" uid="8a7d0852b8274999b909c4db34ab5c6c" name="Dates butoirs" meeting="false" start="2024-09-06" duration="34" complete="0" expand="true">
             <task id="76" uid="6c24187a6e9f44dc8c361ee7b9a6365c" name="Mail - Groupe et sujet" meeting="true" start="2024-09-06" duration="0" complete="0" expand="true"/>
             <task id="51" uid="c7ffe21e950b4ccc8f7cd3c1fa0a5ded" name="Questionnaire 1 et planning" meeting="true" start="2024-09-20" duration="0" complete="0" expand="true"/>
             <task id="35" uid="a42a9e2e79ac49d2ab165ae8d04040d2" name="Site v1" meeting="true" start="2024-09-27" duration="0" complete="0" expand="true"/>
