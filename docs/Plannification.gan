@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="610" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="716" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd15" name="Notes" width="20" order="0"/>
-        <field id="tpd3" name="Nom" width="390" order="0"/>
-        <field id="tpd4" name="Date de début" width="100" order="1"/>
-        <field id="tpd5" name="Date de fin" width="104" order="2"/>
+        <field id="tpd3" name="Nom" width="429" order="0"/>
+        <field id="tpd4" name="Date de début" width="148" order="1"/>
+        <field id="tpd5" name="Date de fin" width="123" order="2"/>
         <option id="taskLabelRight" value="resources"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -13,8 +13,8 @@
         <option id="color.recent"><![CDATA[#ff6666]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="195" order="0"/>
-        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+        <field id="0" name="Nom" width="202" order="0"/>
+        <field id="1" name="Rôle par défaut" width="94" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -74,20 +74,6 @@
             </task>
             <task id="81" uid="ab5c74c6f85a4cb68b0fac62e87784e3" name="Envoyer livrable" color="#ff6666" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
-            </task>
-        </task>
-        <task id="55" uid="4bc0864cb3f840b3b83a32bdb5844bc7" name="Planning effectif" meeting="false" start="2024-09-20" duration="15" complete="0" expand="true">
-            <depend id="86" type="2" difference="0" hardness="Strong"/>
-            <task id="32" uid="1a882052181f476b990c4d25472b6cae" name="Noter le temps de travail pour le planning effectif" meeting="false" start="2024-09-20" duration="13" complete="0" expand="true">
-                <depend id="33" type="2" difference="0" hardness="Strong"/>
-                <depend id="86" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="33" uid="3f956f92c11b4fa498d413d12a04453c" name="Produire le planning effectif" meeting="false" start="2024-10-09" duration="1" complete="0" expand="true">
-                <depend id="31" type="2" difference="0" hardness="Strong"/>
-                <depend id="86" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="31" uid="deffae0d794043aabd3f37719a6589cb" name="Rendre le livrable : Planning effectif" color="#ff6666" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
-                <depend id="86" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
         <task id="9" uid="a27f36b3ada44d9aaaa3bc6ef6327bce" name="Première version du site" meeting="false" start="2024-09-23" duration="4" complete="0" expand="true">
@@ -219,7 +205,6 @@
             <task id="35" uid="a42a9e2e79ac49d2ab165ae8d04040d2" name="Site v1" meeting="true" start="2024-09-27" duration="0" complete="0" expand="true"/>
             <task id="77" uid="95892fc18fee41c98f8e153bd322e6bb" name="Questionnaire 2" meeting="true" start="2024-10-04" duration="0" complete="0" expand="true"/>
             <task id="84" uid="f5da6577268f4af1baefae797a9b8ee5" name="Rendre le rapport" meeting="true" start="2024-10-11" duration="0" complete="0" expand="true"/>
-            <task id="86" uid="0cd0ee357e3f494c843b0850ccc7f0c0" name="Rendre planning effectif ?" meeting="true" start="2024-10-11" duration="0" complete="0" expand="true"/>
             <task id="83" uid="1234caa566f84a98b50d0e410862c266" name="Site version finale" meeting="true" start="2024-10-18" duration="0" complete="0" expand="true"/>
             <task id="85" uid="4c4131e222b24c1a8d8949dba5822bbb" name="Mail investissement du groupe" meeting="true" start="2024-10-18" duration="0" complete="0" expand="true"/>
             <task id="87" uid="84e4242965ca446faa9e7b5ee0815314" name="Soutenance" meeting="true" start="2024-10-24" duration="0" complete="0" expand="true"/>
@@ -239,8 +224,6 @@
         <allocation task-id="5" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="6" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="81" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="32" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="31" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="46" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="80" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="79" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
@@ -261,7 +244,6 @@
         <allocation task-id="59" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="62" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="32" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="46" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="73" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="72" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
@@ -277,7 +259,6 @@
         <allocation task-id="44" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="62" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="32" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="46" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="73" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="72" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
@@ -292,7 +273,6 @@
         <allocation task-id="41" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="43" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="62" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="32" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="46" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="10" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="73" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
@@ -312,8 +292,6 @@
         <allocation task-id="2" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="48" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="50" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="32" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="33" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="11" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="46" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="73" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
@@ -332,6 +310,7 @@
         <allocation task-id="68" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="64" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="59" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
