@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="701" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="SAE_S_05_06" company="" webLink="" view-date="2024-09-02" view-index="0" gantt-divider-location="686" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd15" name="Notes" width="20" order="0"/>
-        <field id="tpd3" name="Nom" width="420" order="0"/>
-        <field id="tpd4" name="Date de début" width="145" order="1"/>
-        <field id="tpd5" name="Date de fin" width="120" order="2"/>
+        <field id="tpd3" name="Nom" width="411" order="0"/>
+        <field id="tpd4" name="Date de début" width="142" order="1"/>
+        <field id="tpd5" name="Date de fin" width="117" order="2"/>
+        <option id="taskLabelRight" value="resources"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -138,7 +139,7 @@
                 <depend id="69" type="2" difference="0" hardness="Strong"/>
                 <depend id="87" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="69" uid="d981ee3afa0d4013907ece187fbf06c2" name="Répéter" meeting="false" start="2024-10-14" duration="2" complete="0" expand="true">
+            <task id="69" uid="d981ee3afa0d4013907ece187fbf06c2" name="Répéter" meeting="false" start="2024-10-14" duration="8" complete="0" expand="true">
                 <depend id="87" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="88" uid="1cdce7fc518842b4acdd2d289a34ea8d" name="Dernier preparatifs" color="#ff6666" meeting="false" start="2024-10-23" duration="1" complete="0" expand="true">
