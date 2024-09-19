@@ -1,8 +1,8 @@
-Proposez un à trois descriptifs généraux de ce que vous comptez mettre comme contenu dans votre site (en quelques lignes à chaque fois) (précisez à travers quels thèmes vous voulez traiter votre sujet.) :
-Descriptif n°1: Dans un premier temps, nous présenterons l'historique de Quantic Dream. Ensuite, un bilan des différentes œuvres réalisées par le studio sera abordé dans la deuxième section. La troisième page sera consacrée à une analyse approfondie du studio, tandis que la quatrième présentera un bilan économique de Quantic Dream. Enfin, la cinquième page proposera une synthèse de leur performance financière.
+Proposez un à trois descriptifs généraux de ce que vous comptez mettre comme contenu dans votre site (en quelques lignes à chaque fois) (précisez à travers quels thèmes vous voulez traiter votre sujet.) :  
+Descriptif n°1: Dans un premier temps, nous présenterons l'historique de Quantic Dream. Ensuite, un bilan des différentes œuvres réalisées par le studio sera abordé dans la deuxième section. La troisième page sera consacrée à une analyse approfondie du studio, tandis que la quatrième présentera un bilan économique de Quantic Dream. Enfin, la cinquième page proposera une synthèse de leur performance financière.  
 
-Histoire: L'histoire d'une entreprise retrace sa création, son développement, ses principales étapes de croissance, ses innovations majeures, ainsi que son évolution sur le marché.
-Sudios:
-Oeuvres: 
-Résultats financiers: Ce thème examinera ses revenus, ses coûts, sa rentabilité, ses investissements, et sa capacité à générer de la croissance tout en maintenant une stabilité financière.
-Écologie: Ce thème évoquera des sujets comme ses émissions de gaz à effet de serre, sa gestion des ressources et des déchets, son impact sur la biodiversité, et ses engagements en matière de durabilité.
+Histoire: L'histoire d'une entreprise retrace sa création, son développement, ses principales étapes de croissance, ses innovations majeures, ainsi que son évolution sur le marché.  
+Sudios:  
+Oeuvres:   
+Résultats financiers: Ce thème examinera ses revenus, ses coûts, sa rentabilité, ses investissements, et sa capacité à générer de la croissance tout en maintenant une stabilité financière.  
+Écologie: Ce thème évoquera des sujets comme ses émissions de gaz à effet de serre, sa gestion des ressources et des déchets, son impact sur la biodiversité, et ses engagements en matière de durabilité.  
