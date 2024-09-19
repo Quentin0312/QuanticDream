@@ -91,7 +91,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 - **RIETZ Ethan**
   - Page écologie
 - **MOREL Gabin** <br>
-   -Page studio
+  - Page studio
 - **OZBUDAK Suleyman**
   
 
