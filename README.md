@@ -90,7 +90,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - page économie
 - **RIETZ Ethan**
   - Page écologie
-- **MOREL Gabin**
+- **MOREL Gabin** <br>
    -Page studio
 - **OZBUDAK Suleyman**
   
