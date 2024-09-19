@@ -24,7 +24,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Page d'accueil
 
-**Auteur : Nom Prénom**  
+**Auteur : Quentin PAYET**  
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
@@ -74,20 +74,19 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 ### Rapport économique
 
-- Nom Prénom
-- Nom Prénom
-- Nom Prénom
+- RIETZ Ethan
 
 ### Développement site
 
-- Nom Prénom
+- PAYET Quenty
   - Page d’accueil
   - "Template" de page (Navbar/Footer)
-  - Page présentation
+  - Page présentation 
 - Nom Prénom
   - Page histoire
-- Nom Prénom
-  - Page organisation
+- OUADAH Kheira
+  - Page Oeuvre
+  - PAYET Quentin**
 
 
 ## Contributeurs subject=SAE_1_05_06)  
