@@ -78,15 +78,22 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 ### Développement site
 
-- PAYET Quenty
   - Page d’accueil
+- **PAYET Quenty**
   - "Template" de page (Navbar/Footer)
   - Page présentation 
-- Nom Prénom
+- **Nom Prénom**
   - Page histoire
-- OUADAH Kheira
-  - Page Oeuvre
-  - PAYET Quentin**
+- **OUADAH Kheira**
+  - Page oeuvre
+- **PAYET Quentin**
+  - page économie
+- **RIETZ Ethan**
+  - Page écologie
+- **MOREL Gabin**
+   -Page studio
+- **OZBUDAK Suleyman**
+  
 
 
 ## Contributeurs subject=SAE_1_05_06)  
