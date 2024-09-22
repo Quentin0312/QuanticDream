@@ -14,11 +14,15 @@ footer a {
     width: 350px;
 }
 
-/* Socials buttons */
+/* Social buttons */
 
 #socials {
     display: flex;
     justify-content: space-around;
+}
+
+#socials, #socials a, #youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo, #instagram-logo, #tiktok-logo, #vk-logo {
+    height: 29px;
 }
 
 #youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo {
@@ -27,10 +31,6 @@ footer a {
 
 #vk-logo:not(:hover) path:first-child {
     fill: black;
-}
-
-#youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo, #instagram-logo, #tiktok-logo, #vk-logo {
-    width: 25px;
 }
 
 #tiktok-logo:not(:hover) path:not(:nth-child(4)) {
@@ -51,4 +51,14 @@ footer a {
 
 #instagram-logo:not(:hover) path:nth-child(4) {
     fill: black !important;
+}
+
+/* Social buttons animation */
+#youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo, #instagram-logo, #tiktok-logo, #vk-logo {
+    transition: transform 0.2s;
+    transform-origin: center;
+}
+
+#youtube-logo:hover, #facebook-logo:hover, #twitter-logo:hover, #linkedin-logo:hover, #instagram-logo:hover, #tiktok-logo:hover, #vk-logo:hover {
+    transform: scale(1.2);
 }
