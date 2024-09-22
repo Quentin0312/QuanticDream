@@ -18,6 +18,13 @@ footer a {
     width: 350px;
 }
 
+/* Socials buttons */
+
+#socials {
+    display: flex;
+    justify-content: space-around;
+}
+
 #youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo {
     color: black;
 }
