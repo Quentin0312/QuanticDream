@@ -1,12 +1,10 @@
-// TODO : With webstorm import leaflet !
-
 // Paris HQ infos
 const paris_hq_lat_lng = [48.879884, 2.408803];
 const paris_hq_infos =
   "<b>Quantic Dream - Paris, France</b><br>30 rue Raoul Wallenberg, 75019 Paris (France)<br>+33 1 44 64 00 90";
 
 // Set up the map
-var map = L.map("map", {
+const map = L.map("map", {
   zoomControl: false,
   center: paris_hq_lat_lng,
   zoom: 16,
@@ -25,7 +23,7 @@ L.control.zoom({
 }).addTo(map);
 
 // Add a pin to the map
-var marker = L.marker(paris_hq_lat_lng).addTo(map);
+const marker = L.marker(paris_hq_lat_lng).addTo(map);
 
 // Add a popup to the pin to show address
 marker.bindPopup(paris_hq_infos).openPopup();
