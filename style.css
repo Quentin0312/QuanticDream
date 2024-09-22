@@ -1,4 +1,51 @@
+body {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+footer a {
+    text-decoration: none;
+}
+
 #map {
-  height: 500px;
-  width: 500px;
+    height: 350px;
+    width: 350px;
+}
+
+#youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo {
+    color: black;
+}
+
+#vk-logo:not(:hover) path:first-child {
+    fill: black;
+}
+
+#youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo, #instagram-logo, #tiktok-logo, #vk-logo {
+    width: 25px;
+}
+
+#tiktok-logo:not(:hover) path:not(:nth-child(4)) {
+    fill: white;
+}
+
+#youtube-logo:hover {
+    color: red !important;
+}
+
+#facebook-logo:hover {
+    color: #0884FF !important;
+}
+
+#linkedin-logo:hover {
+    color: #0A76B4 !important;
+}
+
+#instagram-logo:not(:hover) path:nth-child(4) {
+    fill: black !important;
 }
