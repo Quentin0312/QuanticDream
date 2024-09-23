@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 30px;
+    /* FONTS */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a.active {
+    /* FONTS */
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

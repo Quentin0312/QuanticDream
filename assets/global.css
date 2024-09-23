@@ -1,6 +1,12 @@
 @import url('font.css');
 @import url('footer.css');
+@import url('navbar.css');
 
 body {
     margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
