@@ -3,7 +3,13 @@
 ## Dont Quantic Dream est le développeur
 
 - The Nomad Soul (1999)
+    Moteur de jeu ?
+    Durée du develppement ?
+    Réalisateur : David Cage
 - Fahrenheit (2005)
+    Moteur de jeu ?
+    Durée du develppement ?
+    Réalisateur : David Cage
 - Heavy Rain (2010)
 - Beyond: Two Souls (2013)
 - Detroit: Become Human (2018)
@@ -39,6 +45,14 @@ https://chatgpt.com/share/676c4d2c-e196-4cd0-a315-dedda08a479b
     - Reception du public award
     - Projet en cours grosse licence Star Wars
   - Impact en tant qu'éditeur
+# Brouillon
+TODO : Citer David Cage
+Titre : Réalisations
+Sous titre : Genèse
+(petite intro) Sortie en 1999 sur Windows et porté en 2000 sur Dreamcast, `The Nomad Souls` est le premier jeu développé par Quantic Dream.
+(petite explication gameplay) action-aventure très accès sur l'aspet narratif car histoire d'un serial killer etc ...
+Fruit de x? année de développement avec le moteur ? (créer pour l'ocasion?) "et malgré les ventes décevantes"?pejoratif !, ce jeu a installé Quantic Dream dans le paysage vidéoludique car en effet the nomad souls a tout de même marqué grâce à son originalité et son aspect artistique.
+
 
 # Ressources (pour produire la sitographie)
 
