@@ -54,6 +54,9 @@ Sous titre : Genèse
 Fruit de x? année de développement avec le moteur ? (créer pour l'ocasion?) "et malgré les ventes décevantes"?pejoratif !, ce jeu a installé Quantic Dream dans le paysage vidéoludique car en effet the nomad souls a tout de même marqué grâce à son originalité et son aspect artistique.
 ---
 Fahrenheit (2005)
+Toujours réalisé par David Cage, Fahrenheit est publié par Atari et publié en 2005. Classé dans la catégorie des jeux d'aventures,
+l'aspect narratif est la encore au coeur du jeu mais cette fois-ci une attention particulière est apporté à la mise en scène.
+Il y a aussi un aspect psychologique, en effet la santé mentale du personnage a un impact sur le gameplay.
 
 # Ressources (pour produire la sitographie)
 
