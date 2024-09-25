@@ -16,6 +16,6 @@ function setupNavbar() {
 }
 
 export default function insertNavbar() {
-    const navElement = document.getElementsByTagName("navbar");
+    const navElement = document.getElementById("navbar");
     navElement.innerHTML = setupNavbar();
 }
