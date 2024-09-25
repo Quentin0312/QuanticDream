@@ -52,7 +52,8 @@ Sous titre : Genèse
 (petite intro) Sortie en 1999 sur Windows et porté en 2000 sur Dreamcast, `The Nomad Souls` est le premier jeu développé par Quantic Dream.
 (petite explication gameplay) action-aventure très accès sur l'aspet narratif car histoire d'un serial killer etc ...
 Fruit de x? année de développement avec le moteur ? (créer pour l'ocasion?) "et malgré les ventes décevantes"?pejoratif !, ce jeu a installé Quantic Dream dans le paysage vidéoludique car en effet the nomad souls a tout de même marqué grâce à son originalité et son aspect artistique.
-
+---
+Fahrenheit (2005)
 
 # Ressources (pour produire la sitographie)
 
