@@ -3,3 +3,42 @@
     display: flex;
     justify-content: center;
 }
+
+.game-section {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.game-section-illustration {
+    margin-left: 100px;
+}
+
+.game-section-content {
+    border-left: 2px solid #2CACE3;
+    padding-left: 50px
+}
+
+.game-section-content p {
+    line-height: 2.5;
+}
+
+.game-section-content-title {
+    position: relative;
+}
+
+.game-timeline-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #2CACE3;
+    position: absolute;
+    top: 6px;
+    left: -61px;
+    border-radius: 7px;
+}
+
+.game-timeline-date {
+    position: absolute;
+    left: -125px;
+    top: 6px;
+    color: #2CACE3;
+}
