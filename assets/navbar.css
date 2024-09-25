@@ -18,3 +18,7 @@ nav a.active {
     font-weight: 700;
     font-style: normal;
 }
+
+nav img {
+    margin: 30px;
+}

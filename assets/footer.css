@@ -1,8 +1,14 @@
 footer {
+    border: 1px solid black;
+}
+
+#footer-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
+}
+#page-credit {
+    text-align: center;
 }
 
 #map {
