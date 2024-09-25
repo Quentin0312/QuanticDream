@@ -5,7 +5,7 @@ import setupFooter from "./components/footer.js";
 setupNavbar();
 
 // TODO : Check url to specify who is the page author into setupFooter ?
-console.log(window.location.href);
+console.log(window.location.href.split("/").at(-1).split(".").at(0));
 
 // Insert footer
 setupFooter();

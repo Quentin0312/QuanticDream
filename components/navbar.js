@@ -8,7 +8,7 @@ function setupNavbar() {
             <a href="index.html" class="active">Accueil</a>
             <a>Histoire</a>
             <a>Studios</a>
-            <a>Œuvres</a>
+            <a href="pages/oeuvres.html">Œuvres</a>
             <a>Résultats financiers</a>
             <a>Écologie</a>
         </div>
