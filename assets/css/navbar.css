@@ -1,8 +1,11 @@
 nav {
-    height: 10vh;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
+    background-color: white;
 }
 
 nav a {
