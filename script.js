@@ -8,5 +8,8 @@ setupNavbar();
 // Insert presentations cards
 setupCards();
 
+// TODO : Check url to specify who is the page author into setupFooter ?
+console.log(window.location.href);
+
 // Insert footer
 setupFooter();
