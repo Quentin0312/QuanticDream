@@ -1,6 +1,7 @@
 @import url('font.css');
-@import url('footer.css');
 @import url('navbar.css');
+@import url('home.css');
+@import url('footer.css');
 
 body {
     margin: 0;

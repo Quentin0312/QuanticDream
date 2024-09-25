@@ -1,0 +1,12 @@
+#home-section {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    background-color: gray;
+    /*color: white;*/
+}
+
+#home-section img {
+    width: 700px;
+    height: 700px;
+}
