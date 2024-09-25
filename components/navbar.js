@@ -5,7 +5,7 @@ function setupNavbar() {
             <img src="assets/images/qd_logo_blue.svg" alt="Logo de Quantic Dream">
         </div>
         <div>
-            <a href="../index.html" class="active">Accueil</a>
+            <a href="index.html" class="active">Accueil</a>
             <a>Histoire</a>
             <a>Studios</a>
             <a>Œuvres</a>
