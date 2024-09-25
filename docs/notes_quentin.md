@@ -56,7 +56,12 @@ Fruit de x? année de développement avec le moteur ? (créer pour l'ocasion?) "
 Fahrenheit (2005)
 Toujours réalisé par David Cage, Fahrenheit est publié par Atari et publié en 2005. Classé dans la catégorie des jeux d'aventures,
 l'aspect narratif est la encore au coeur du jeu mais cette fois-ci une attention particulière est apporté à la mise en scène.
-Il y a aussi un aspect psychologique, en effet la santé mentale du personnage a un impact sur le gameplay.
+Il y a aussi un aspect psychologique, en effet la santé mentale du personnage a un impact sur le gameplay. C'est l'histoire de ...
+---
+Heavy Rain (2010)
+Suite à la sortie Fahreneit, le studio a pris son temps et a travaillé sur plusieurs projets techniques. C'est donc après 3 ans de développement que sortira Heavy Rain.
+Faisant partie de la catégorie des films interactifs, la narration et l'immersion est plus que jamais au coeur du jeu.
+C'est l'histoire de ...
 
 # Ressources (pour produire la sitographie)
 
