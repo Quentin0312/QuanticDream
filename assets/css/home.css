@@ -1,4 +1,4 @@
-#home-section {
+#home {
     display: flex;
     align-items: center;
     height: 90vh;
@@ -6,7 +6,7 @@
     /*color: white;*/
 }
 
-#home-section img {
+#home img {
     width: 700px;
     height: 700px;
 }
