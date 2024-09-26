@@ -1,21 +1,26 @@
-function setupNavbar() {
+function getActivePage (){
+    // TODO : Refactor this into an utils ?
+    return window.location.href.split("/").at(-1).split(".").at(0);
+}
+
+function setupNavbar(activePage) {
     return `
         <!-- TODO : Cacher logo quand utilisateur sur la page d'accueil avec le logo déjà affiché -->
         <div>
             <img src="assets/images/qd_logo_blue.svg" alt="Logo de Quantic Dream">
         </div>
         <div>
-            <a href="index.html" class="active">Accueil</a>
-            <a>Histoire</a>
-            <a>Studios</a>
-            <a href="oeuvres.html">Œuvres</a>
-            <a>Résultats financiers</a>
-            <a>Écologie</a>
+            <a href="index.html" class=${activePage === "index" ? "active" : ""}>Accueil</a>
+            <a class=${activePage === "histoire" ? "active" : ""}>Histoire</a>
+            <a class=${activePage === "studios" ? "active" : ""}>Studios</a>
+            <a href="oeuvres.html" class=${activePage === "oeuvres" ? "active" : ""}>Œuvres</a>
+            <a class=${activePage === "economie" ? "active" : ""}>Résultats financiers</a>
+            <a class=${activePage === "ecologie" ? "active" : ""}>Écologie</a>
         </div>
     `
 }
 
 export default function insertNavbar() {
     const navElement = document.getElementById("navbar");
-    navElement.innerHTML = setupNavbar();
+    navElement.innerHTML = setupNavbar(getActivePage());
 }
