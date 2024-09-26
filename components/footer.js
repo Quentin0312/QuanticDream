@@ -1,6 +1,25 @@
 import setupMap from "./map.js";
 
-function createFooter() {
+function getPageAuhtor() {
+    const pageEndUrl = window.location.href.split("/").at(-1).split(".").at(0);
+    switch (pageEndUrl) {
+        case "index":
+        case "oeuvres":
+            return "Quentin PAYET"
+        case "histoire":
+            return "Kheira OUADAH"
+        case "studios":
+            return "Suleyman OZBUDAK"
+        case "economie":
+            return "Ethan RIETZ"
+        case "ecologie":
+            return "Gabin MOREL"
+        default:
+            return "Unknown"
+    }
+}
+
+function createFooter(pageAuthor) {
     return `
             <div>
         <div id="footer-content">
@@ -106,7 +125,7 @@ function createFooter() {
             <div id="map"></div>
         </div>
         <div id="page-credit">
-            <span>Page réalisé par Quentin Payet</span>
+            <span>Page réalisé par ${pageAuthor}</span>
         </div>
     </div>
     `
@@ -115,7 +134,7 @@ function createFooter() {
 export default function insertFooter() {
     // Insert footer
     const footerElement = document.getElementById("footer");
-    footerElement.innerHTML = createFooter();
+    footerElement.innerHTML = createFooter(getPageAuhtor());
 
     // Insert map
     setupMap();
