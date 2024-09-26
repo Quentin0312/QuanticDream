@@ -3,21 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>partie_histoire_kheira</title>
-    <link rel="stylesheet" href="kheira_page.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Fonts imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Lealflet imports -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Custom files -->
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="histoire.css">
+
+    <title>Quantic Dream</title>
 </head>
 <body>
-    <!--partie nav-->
-    <br>
-    <div class="window-container flex">
-        <div class="window">
-            <img src="https://www.quanticdream.com/img/uploads/press/page_49/20757c39add17426aaa8c6230758dbe3.jpeg"
-            alt ="image" style="height: 250px ; width: 100%;" />
-       <span style="position: absolute; top: 125px; left: 10px; color: white ;">D'où vient Quantic Dream...</span> 
-  
-    </div>
+<!-- NAVBAR -->
+<nav id="navbar"></nav>
 
-    <!--partie footer-->
+<div style="position: relative; text-align: center">
+    <img src="assets/images/histoire/title_wallpaper.jpeg"
+         alt="Image représentant un open space" width="1920" height="350"
+         style="height: 250px ; width: 100%; object-fit: cover; object-position: top; filter: brightness(75%)"/>
+    <h1 style="position: absolute; top: -5px; left: 37%; color: white;">Histoire</h1>
+</div>
+
+<!-- FOOTER -->
+
+<footer id="footer"></footer>
+<script src="script.js" type="module"></script>
 </body>
 </html>
 
