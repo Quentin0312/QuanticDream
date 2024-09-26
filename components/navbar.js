@@ -5,7 +5,8 @@ function getActivePage (){
 
 function setupNavbar(activePage) {
     return `
-        <!-- TODO : Cacher logo quand utilisateur sur la page d'accueil avec le logo déjà affiché -->
+        <!-- TODO : Put on top of the wallpaper and use a liner gradient to white to put the navbar into the clouds -->
+        <!-- TODO : Cacher logo quand utilisateur sur la page d'accueil avec le logo déjà affiché ? -->
         <div>
             <img src="assets/images/qd_logo_blue.svg" alt="Logo de Quantic Dream">
         </div>
