@@ -1,6 +1,5 @@
 function getActivePage (){
     // TODO : Refactor this into an utils ?
-    console.log(window.location.href.split("/").at(-1).split(".").at(0));
     return window.location.href.split("/").at(-1).split(".").at(0);
 }
 
@@ -13,7 +12,7 @@ function setupNavbar(activePage) {
         </div>
         <div>
             <!-- TODO : Quand déjà sur la page, faire scroll vers la 1ere section !-->
-            <a href="index.html" class=${activePage === "index" ? "active" : ""}>Accueil</a>
+            <a href="index.html" class=${activePage === "index" || activePage === "QuanticDream" ? "active" : ""}>Accueil</a>
             <a href="histoire.html" class=${activePage === "histoire" ? "active" : ""}>Histoire</a>
             <a href="studios.html" class=${activePage === "studios" ? "active" : ""}>Studios</a>
             <a href="oeuvres.html" class=${activePage === "oeuvres" ? "active" : ""}>Œuvres</a>
