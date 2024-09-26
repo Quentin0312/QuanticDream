@@ -1,6 +1,13 @@
 function getActivePage (){
     // TODO : Refactor this into an utils ?
-    return window.location.href.split("/").at(-1).split(".").at(0);
+    // TODO : Clean ! (This is a quick fix of 'Accueil' not being 'active' because prod url end with '/QuanticDream/') !
+
+    const url = window.location.href;
+    if (url === "https://quentin0312.github.io/QuanticDream/") {
+        return "index";
+    } else {
+        return url.split("/").at(-1).split(".").at(0);
+    }
 }
 
 function setupNavbar(activePage) {
@@ -12,7 +19,7 @@ function setupNavbar(activePage) {
         </div>
         <div>
             <!-- TODO : Quand déjà sur la page, faire scroll vers la 1ere section !-->
-            <a href="index.html" class=${activePage === "index" || activePage === "QuanticDream" ? "active" : ""}>Accueil</a>
+            <a href="index.html" class=${activePage === "index" ? "active" : ""}>Accueil</a>
             <a href="histoire.html" class=${activePage === "histoire" ? "active" : ""}>Histoire</a>
             <a href="studios.html" class=${activePage === "studios" ? "active" : ""}>Studios</a>
             <a href="oeuvres.html" class=${activePage === "oeuvres" ? "active" : ""}>Œuvres</a>
