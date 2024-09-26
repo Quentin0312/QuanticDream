@@ -5,9 +5,9 @@
     align-items: center;
 }
 
-#presentation-cards :nth-child(2n) {
-    flex-direction: row-reverse;
-}
+/*#presentation-cards :nth-child(2n) {*/
+/*    flex-direction: row-reverse;*/
+/*}*/
 
 .presentation-card {
     margin: 20px;
@@ -20,9 +20,10 @@
 }
 
 .presentation-card-content {
+    padding: 50px;
     display: flex;
-    /* TODO : Fix #presentation-cards :nth-child(2n) to don't have to use !important*/
+    /*!* TODO : Fix #presentation-cards :nth-child(2n) to don't have to use !important*!*/
     flex-direction: column !important;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }

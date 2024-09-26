@@ -10,6 +10,7 @@ function setupNavbar(activePage) {
             <img src="assets/images/qd_logo_blue.svg" alt="Logo de Quantic Dream">
         </div>
         <div>
+            <!-- TODO : Quand déjà sur la page, faire scroll vers la 1ere section !-->
             <a href="index.html" class=${activePage === "index" ? "active" : ""}>Accueil</a>
             <a class=${activePage === "histoire" ? "active" : ""}>Histoire</a>
             <a class=${activePage === "studios" ? "active" : ""}>Studios</a>
