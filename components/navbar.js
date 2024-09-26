@@ -1,5 +1,6 @@
 function getActivePage (){
     // TODO : Refactor this into an utils ?
+    console.log(window.location.href.split("/").at(-1).split(".").at(0));
     return window.location.href.split("/").at(-1).split(".").at(0);
 }
 
