@@ -12,12 +12,12 @@ function setupNavbar(activePage) {
         <div>
             <!-- TODO : Quand déjà sur la page, faire scroll vers la 1ere section !-->
             <a href="index.html" class=${activePage === "index" ? "active" : ""}>Accueil</a>
-            <a class=${activePage === "histoire" ? "active" : ""}>Histoire</a>
-            <a class=${activePage === "studios" ? "active" : ""}>Studios</a>
+            <a href="histoire.html" class=${activePage === "histoire" ? "active" : ""}>Histoire</a>
+            <a href="studios.html" class=${activePage === "studios" ? "active" : ""}>Studios</a>
             <a href="oeuvres.html" class=${activePage === "oeuvres" ? "active" : ""}>Œuvres</a>
             <!-- TODO : Rename to "Évolutions des résultats financier ?? (feedback questionnaire)"-->
-            <a class=${activePage === "economie" ? "active" : ""}>Résultats financiers</a>
-            <a class=${activePage === "ecologie" ? "active" : ""}>Écologie</a>
+            <a href="economie.html" class=${activePage === "economie" ? "active" : ""}>Résultats financiers</a>
+            <a href="ecologie.html" class=${activePage === "ecologie" ? "active" : ""}>Écologie</a>
         </div>
     `
 }
