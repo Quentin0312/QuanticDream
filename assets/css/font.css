@@ -1,5 +1,7 @@
 /* https://fonts.google.com/selection?query=Roboto */
 
+/* TODO : S'assurer que toutes les font du site ne soient plus la font par default */
+
 span {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
