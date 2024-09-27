@@ -14,4 +14,11 @@ Etudiant 5 : [RIETZ Ethan](mailto:ethan.rietz@edu.univ-fcomte.fr?subject=SAE_1_0
 
 ## Présentation
 
-Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort. Ce site présente l'entreprise Quantic Dream à travers son histoire, son studio, ses réalisations et ses résultats financiers. Vous trouverez dans ce dépôt le code source du site développé.
+Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort. Ce site présente l'entreprise **Quantic Dream** et aborde :
+- son histoire
+- ses studios
+- ses réalisations
+- l'évolution de ses résultats financiers
+- le message écologique transmis à travers le jeu Under The Waves.
+
+Vous trouverez dans ce dépôt le code source du site développé.
