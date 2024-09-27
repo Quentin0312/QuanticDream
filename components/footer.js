@@ -1,8 +1,20 @@
 import setupMap from "./map.js";
 
-function getPageAuhtor() {
-    const pageEndUrl = window.location.href.split("/").at(-1).split(".").at(0);
-    switch (pageEndUrl) {
+function getActivePage (){
+    // TODO : Refactor this into an utils ?
+    // TODO : Clean ! (This is a quick fix of 'Accueil' not being 'active' because prod url end with '/QuanticDream/') !
+
+    const url = window.location.href;
+    if (url === "https://quentin0312.github.io/QuanticDream/") {
+        return "index";
+    } else {
+        return url.split("/").at(-1).split(".").at(0);
+    }
+}
+
+function getPageAuhtor(activePage) {
+    // const pageEndUrl = window.location.href.split("/").at(-1).split(".").at(0);
+    switch (activePage) {
         case "index":
         case "oeuvres":
             return "Quentin PAYET"
@@ -134,7 +146,7 @@ function createFooter(pageAuthor) {
 export default function insertFooter() {
     // Insert footer
     const footerElement = document.getElementById("footer");
-    footerElement.innerHTML = createFooter(getPageAuhtor());
+    footerElement.innerHTML = createFooter(getPageAuhtor(getActivePage()));
 
     // Insert map
     setupMap();
