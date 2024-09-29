@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,15 +11,16 @@
     <!-- Fonts imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
     <!-- Lealflet imports -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
     <!-- Custom files -->
     <link rel="stylesheet" href="global.css">
@@ -26,120 +28,117 @@
 
     <title>Quantic Dream</title>
 </head>
+
 <body>
-<!-- NAVBAR -->
-<nav id="navbar"></nav>
+    <!-- NAVBAR -->
+    <nav id="navbar"></nav>
 
-<h1 style="text-align: center">Œuvres</h1>
-<!-- TODO: Timeline
-
+    <h1 style="text-align: center">Œuvres</h1>
+    <!-- TODO: Timeline
 Here put a timeline whith every game developped by the studio (and ohter timeline about 'spotlight by quantic dream')?
     Or the same with different color ? position above / under
-Ideas :
-    - Solution 1 : Timeline just give clicable button to scroll automatically :
-        - https://codepen.io/pepijn67/pen/LYVbxoR
-        - https://codepen.io/srikrushnapal/details/dxZqQN
-        - https://codepen.io/kundankumarmourya/pen/oKBMLe
-        - https://codepen.io/arnedecant/details/JvpRjW
-        - https://codepen.io/Schlipak/pen/Pmozob
-    - Solution 2 : Timeline use to select game to watch and scroll auto HORIZONTAL
-        - https://codepen.io/ritz078/pen/LGRWjE
-        - https://codepen.io/AdamKimmerer/pen/RraRbb
-        - https://codepen.io/chenuin/pen/oJNbRm
-    - Solution 3 : Timeline horizontale à gauche du contenu (texte + image) contenant les années !
-
 -->
-<section id="content">
-    <div style="width: 80vw">
+    <section id="content">
+        <div style="width: 80vw">
+            <h2>Jeux développé par Quantic Dreams</h2>
+            <!-- The Nomad Soul -->
+            <div class="game-section">
+                <div class="game-section-content">
+                    <div class="game-section-content-title">
+                        <h2 class="font-orbitron-regular">The Nomad Souls</h2>
+                        <div class="game-timeline-dot"></div>
+                        <b class="game-timeline-date">1999</b>
 
-        <!-- The Nomad Soul -->
-        <div class="game-section">
-            <div class="game-section-content">
-                <div class="game-section-content-title">
-                    <h2 class="font-orbitron-regular">The Nomad Souls</h2>
-                    <div class="game-timeline-dot"></div>
-                    <b class="game-timeline-date">1999</b>
-
+                    </div>
+                    <p>
+                        Sortie en 1999 sur Windows et porté en 2000 sur Dreamcast, <b>The Nomad Souls est le premier jeu
+                            développé par Quantic Dream</b>. C'est un jeu d'action-aventure dans lequel <b>l'aspect
+                            narrative
+                            a
+                            une place importante</b>.
+                        <!-- TODO : Continue ... En effet, celui-ci raconte l'histoire de ... .-->
+                        De par son originalité et l'importance aporté à l'aspect artistique (musique, narration),
+                        <b>The Nomad Souls installe Quantic Dream dans le paysage vidéoludique français</b>.
+                    </p>
                 </div>
-                <p>
-                    Sortie en 1999 sur Windows et porté en 2000 sur Dreamcast, <b>The Nomad Souls est le premier jeu
-                    développé par Quantic Dream</b>. C'est un jeu d'action-aventure dans lequel <b>l'aspect narrative
-                    a
-                    une place importante</b>.
-                    <!-- TODO : Continue ... En effet, celui-ci raconte l'histoire de ... .-->
-                    De par son originalité et l'importance aporté à l'aspect artistique (musique, narration),
-                    <b>The Nomad Souls installe Quantic Dream dans le paysage vidéoludique français</b>.
-                </p>
-            </div>
-            <div class="game-section-illustration">
-                <img height="250px" src="assets/images/oeuvres/the_nomad_soul.webp"
-                     alt="Image de gameplay du jeu The Nomad Soul">
-                <span>Image de gameplay du jeu The Nomad Soul</span><br>
-                <span>Éditeur :<br>Plateformes : Windows, Dreamcast<br>Genre : Action-Aventure</span>
-            </div>
-        </div>
-        <div class="game-section-separator"></div>
-
-        <!-- Fahrenheit -->
-        <div class="game-section">
-            <div class="game-section-content">
-                <div class="game-section-content-title">
-                    <h2 class="font-orbitron-regular">Fahrenheit</h2>
-                    <div class="game-timeline-dot"></div>
-                    <b class="game-timeline-date">2005</b>
-
+                <div class="game-section-illustration">
+                    <img height="250px" src="assets/images/oeuvres/the_nomad_soul.webp"
+                        alt="Image de gameplay du jeu The Nomad Soul">
+                    <span>Image de gameplay du jeu The Nomad Soul</span><br>
+                    <span>Éditeur :<br>Plateformes : Windows, Dreamcast<br>Genre : Action-Aventure</span>
                 </div>
-                <p>
-                    <b>Toujours réalisé par David Cage</b>, Fahrenheit est publié par Atari et publié en 2005. Classé
-                    dans la catégorie des jeux d'aventures,
-                    l'aspect narratif est là encore au cœur du jeu, mais cette fois-ci une <b>attention particulière est
-                    apporté à la mise en scène</b>.
-                    Il y a aussi un aspect psychologique, en effet <b>la santé mentale du personnage a un impact sur le
-                    gameplay</b>.
-                    <!-- TODO : Continue : C'est l'histoire de -->
-                </p>
             </div>
-            <div class="game-section-illustration">
-                <img height="250px" src="assets/images/oeuvres/fahreneit.jpg"
-                     alt="Image de gameplay du jeu Fahreneit">
-                <span>Image de gameplay du jeu Fahreneit</span><br>
-                <!-- TODO: Déplacer en "footer" de game-section-content !? -->
-                <span>Éditeur : Atari<br>Plateformes : PlayStation 2, Windows, Xbox, PlayStation 4, iOS, Mac, Linux<br>Genre : Aventure</span>
-            </div>
-        </div>
-        <div class="game-section-separator"></div>
+            <div class="game-section-separator"></div>
 
-        <!-- Heavy Rain -->
-        <div class="game-section">
-            <div class="game-section-content">
-                <div class="game-section-content-title">
-                    <h2 class="font-orbitron-regular">Heavy Rain</h2>
-                    <div class="game-timeline-dot"></div>
-                    <b class="game-timeline-date">2010</b>
+            <!-- Fahrenheit -->
+            <div class="game-section">
+                <div class="game-section-content">
+                    <div class="game-section-content-title">
+                        <h2 class="font-orbitron-regular">Fahrenheit</h2>
+                        <div class="game-timeline-dot"></div>
+                        <b class="game-timeline-date">2005</b>
 
+                    </div>
+                    <p>
+                        <b>Toujours réalisé par David Cage</b>, Fahrenheit est publié par Atari et publié en 2005.
+                        Classé
+                        dans la catégorie des jeux d'aventures,
+                        l'aspect narratif est là encore au cœur du jeu, mais cette fois-ci une <b>attention particulière
+                            est
+                            apporté à la mise en scène</b>.
+                        Il y a aussi un aspect psychologique, en effet <b>la santé mentale du personnage a un impact sur
+                            le
+                            gameplay</b>.
+                        <!-- TODO : Continue : C'est l'histoire de -->
+                    </p>
                 </div>
-                <!-- TODO: Remove raw width value after text content is wrote-->
-                <p>
-                    Suite à la sortie Fahreneit, le studio a pris son temps et a travaillé sur plusieurs projets
-                    techniques. C'est donc <b>après 3 ans de développement</b> que sortira Heavy Rain.
-                    Faisant partie de la catégorie des <b>films interactifs, la narration et l'immersion est plus que
-                    jamais au cœur du jeu</b>.
-                    <!-- TODO : Continue : C'est l'histoire de -->
-                </p>
+                <div class="game-section-illustration">
+                    <img height="250px" src="assets/images/oeuvres/fahreneit.jpg"
+                        alt="Image de gameplay du jeu Fahreneit">
+                    <span>Image de gameplay du jeu Fahreneit</span><br>
+                    <!-- TODO: Déplacer en "footer" de game-section-content !? -->
+                    <span>Éditeur : Atari<br>Plateformes : PlayStation 2, Windows, Xbox, PlayStation 4, iOS, Mac,
+                        Linux<br>Genre : Aventure</span>
+                </div>
             </div>
-            <div class="game-section-illustration">
-                <img height="250px" src="assets/images/oeuvres/heavy_rain.webp"
-                     alt="Image de gameplay du jeu Heavy Rain">
-                <span>Image de gameplay du jeu Heavy Rain</span><br>
-                <span>Éditeur : Sony Computer Entertainment<br>Plateformes : PlayStation 3, PlayStation 4, Windows<br>Genre : Film interactif</span>
+            <div class="game-section-separator"></div>
+
+            <!-- Heavy Rain -->
+            <div class="game-section">
+                <div class="game-section-content">
+                    <div class="game-section-content-title">
+                        <h2 class="font-orbitron-regular">Heavy Rain</h2>
+                        <div class="game-timeline-dot"></div>
+                        <b class="game-timeline-date">2010</b>
+
+                    </div>
+                    <!-- TODO: Remove raw width value after text content is wrote-->
+                    <p>
+                        Suite à la sortie Fahreneit, le studio a pris son temps et a travaillé sur plusieurs projets
+                        techniques. C'est donc <b>après 3 ans de développement</b> que sortira Heavy Rain.
+                        Faisant partie de la catégorie des <b>films interactifs, la narration et l'immersion est plus
+                            que
+                            jamais au cœur du jeu</b>.
+                        <!-- TODO : Continue : C'est l'histoire de -->
+                    </p>
+                </div>
+                <div class="game-section-illustration">
+                    <img height="250px" src="assets/images/oeuvres/heavy_rain.webp"
+                        alt="Image de gameplay du jeu Heavy Rain">
+                    <span>Image de gameplay du jeu Heavy Rain</span><br>
+                    <span>Éditeur : Sony Computer Entertainment<br>Plateformes : PlayStation 3, PlayStation 4,
+                        Windows<br>Genre : Film interactif</span>
+                </div>
             </div>
+            <div class="game-section-separator"></div>
+            <!-- Beyound two souls-->
+            <h2>Jeux édités par Quantic Dreams</h2>
+            <!-- Changer la couleur de la timeline et utiliser le rouge de spotlight by Quantic Dream -->
         </div>
-        <div class="game-section-separator"></div>
-        <!-- Beyound two souls-->
-    </div>
-</section>
-<!-- FOOTER -->
-<footer id="footer"></footer>
-<script src="script.js" type="module"></script>
+    </section>
+    <!-- FOOTER -->
+    <footer id="footer"></footer>
+    <script src="script.js" type="module"></script>
 </body>
+
 </html>
