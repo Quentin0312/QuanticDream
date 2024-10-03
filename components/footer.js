@@ -1,31 +1,31 @@
 import setupMap from "./map.js";
-import { getActivePage} from "./utils.js";
+import { getActivePage } from "./utils.js";
 
 function getPageAuhtor(activePage) {
-    // const pageEndUrl = window.location.href.split("/").at(-1).split(".").at(0);
-    switch (activePage) {
-        case "index":
-        case "oeuvres":
-            return "Quentin PAYET"
-        case "histoire":
-            return "Kheira OUADAH"
-        case "studios":
-            return "Suleyman OZBUDAK"
-        case "economie":
-            return "Ethan RIETZ"
-        case "ecologie":
-            return "Gabin MOREL"
-        default:
-            return "Unknown"
-    }
+  // const pageEndUrl = window.location.href.split("/").at(-1).split(".").at(0);
+  switch (activePage) {
+    case "index":
+    case "oeuvres":
+      return "Quentin PAYET";
+    case "histoire":
+      return "Kheira OUADAH";
+    case "studios":
+      return "Suleyman OZBUDAK";
+    case "economie":
+      return "Ethan RIETZ";
+    case "ecologie":
+      return "Gabin MOREL";
+    default:
+      return "Unknown";
+  }
 }
 
 function createFooter(pageAuthor) {
-    return `
+  return `
             <div>
         <div id="footer-content">
             <div class="footer-contacts">
-                <div>
+<!--                <div>
                     <b>Quantic Dream - Paris, France</b><br>
                     <span>30 rue Raoul Wallenberg, 75019 Paris (France)</span><br>
                     <span>+33 1 44 64 00 90</span><br>
@@ -34,7 +34,7 @@ function createFooter(pageAuthor) {
                 <div>
                     <b>Quantic Dream - Montreal, Québec</b><br>
                     <span>1100 Atwater, Westmount, Québec</span><br>
-                </div>
+                </div> -->
 
                 <div id="socials">
                     <a href="https://www.youtube.com/channel/UCf1dGULY0opzBbE3XEXWvWg" target="_blank">
@@ -124,19 +124,20 @@ function createFooter(pageAuthor) {
                 </div>
             </div>
             <div id="map"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d896.5401792725116!2d2.408303845734146!3d48.87992545500603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6727e3290e2dd%3A0x817bb84c4510d95e!2sQuantic%20Dream!5e1!3m2!1sfr!2sfr!4v1727957895505!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div id="page-credit">
             <span>Page réalisé par ${pageAuthor}</span>
         </div>
     </div>
-    `
+    `;
 }
 
 export default function insertFooter() {
-    // Insert footer
-    const footerElement = document.getElementById("footer");
-    footerElement.innerHTML = createFooter(getPageAuhtor(getActivePage()));
+  // Insert footer
+  const footerElement = document.getElementById("footer");
+  footerElement.innerHTML = createFooter(getPageAuhtor(getActivePage()));
 
-    // Insert map
-    setupMap();
+  // Insert map
+  setupMap();
 }
