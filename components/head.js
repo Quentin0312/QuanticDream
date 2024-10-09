@@ -21,7 +21,7 @@ function headHTML() {
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
     <!-- Custom files -->
-    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 
     <title>Quantic Dream</title>`;
 }
