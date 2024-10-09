@@ -5,7 +5,7 @@ function setupNavbar(activePage) {
         <!-- TODO : Put on top of the wallpaper and use a liner gradient to white to put the navbar into the clouds -->
         <!-- TODO : Cacher logo quand utilisateur sur la page d'accueil avec le logo déjà affiché ? -->
         <div>
-            <a href="index.html"><img src="assets/images/qd_logo_blue.svg" alt="Logo de Quantic Dream"></a>
+            <a href="index.html"><img src="assets/images/autre/qd_logo_blue.svg" alt="Logo de Quantic Dream"></a>
         </div>
         <div>
             <!-- TODO : Quand déjà sur la page, faire scroll vers la 1ere section !-->
