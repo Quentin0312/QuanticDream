@@ -1,8 +1,12 @@
-import setupNavbar from "./components/navbar.js";
-import setupFooter from "./components/footer.js";
+import insertNavbar from "./components/navbar.js";
+import insertFooter from "./components/footer.js";
+import insertHead from "./components/head.js";
+
+// Insert head
+insertHead();
 
 // Insert navbar
-setupNavbar();
+insertNavbar();
 
 // Insert footer
-setupFooter();
+insertFooter();
