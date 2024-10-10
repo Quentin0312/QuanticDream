@@ -90,7 +90,7 @@ Star Wars Eclipse
 
 Fort de leurs succès precedants et de la crédibilité qui en découle, Quantic Dream a réussi a avoir un accord commercial avec Disney et Lucas Film et travail actuellement sur leurs dernier jeu nommée "Star Wars Eclipse"
 
-Grâce à leurs succès précédents et à la crédibilité acquise, Quantic Dream a établi un partenariat avec Disney et Lucasfilm, et travaille actuellement sur leur nouveau jeu intitulé "Star Wars Eclipse". La sortie du jeu est prévu vers 2027 et aura un impact important vis à vis de l'image du studio. En effet, avec leurs
+Grâce à leurs succès précédents et à la crédibilité acquise, Quantic Dream a établi un partenariat avec Disney et Lucasfilm, et travaille actuellement sur leur nouveau jeu intitulé "Star Wars Eclipse". La sortie du jeu est prévu vers 2027 et aura un impact important vis à vis de l'image du studio. En effet, avec leurs precedant succès "Detroit Become Human" les attentes du publics, concernant un jeu star wars d'autant plus, sont élévée. On remarque que pour ces studios qui ne developpe pas de jeu de façon parrallèle et dont les sorties sont trèes espacés dans le temps, le succès commercial de chacun des jeux est très important pour l'entreprise.
 
 # Ressources (pour produire la sitographie)
 
