@@ -71,15 +71,18 @@ C'est l'histoire de ...
 
 ---
 
-Beyond: Two Souls
+Beyond: Two Souls (2013)
 Les succès prècèdant conforte Quantic Dream dans une position de leader dans le domaine des jeux narratifs et leurs permettent nottement d'engager les célèbres acteurs Elliot Page et Willem Dafoe pour le nouveau jeu "Beyond: Two Souls" sortie en 2013 sur Playstation 3. Dans ce jeu Quantic Dream continue d'exceller au niveau de la narration et raconte l'histoire sombre d'une jeune femme possédant des pouvoirs surnaturels.
-Mais cette fois-ci le gameplay est de nouveau mis en avant, en effet, ce jeu est catégorisé film interractifs mais aussi jeu d'action-aventure. Le gameplay est composé de 2 parties :
+Neanmoins, cette fois-ci le gameplay est de nouveau mis en avant, en effet, ce jeu est catégorisé film interractifs mais aussi jeu d'action-aventure. Le gameplay est composé de 2 parties :
 -> la première correspond à controller le personnage principale, on peut donc se déplacer, intérragir avec l'environnement et réagir à des QTE.
 -> la deuxième partie correspond à ces capacité surnaturels, dans ce mode de jeu, la caméra se détache du personnage principal et le joueur peut donc: se déplacer librement même à travers les murs et déplacer des objets, prendre le contrôle d'autres personnage ou même le soigner ou le tuer par strangulation.
 
-Cette mécanique de jeu est innovante et contribuera au succès commercial du jeu, entrainant les années suivantes un portage sur Playstation 4 et Windows.
+La qualité narratifs associé à cette mécanique de jeu innovante sont les raisons du succès commercial du jeu, entrainant les années suivantes un portage sur Playstation 4 et Windows.
 
->
+---
+
+Detroit Become Human (2018)
+Édité par Sony Interactive Entertainment, "Detroit Become Human" sort en 2018 sur Playstation 4
 
 # Ressources (pour produire la sitographie)
 
