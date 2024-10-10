@@ -88,7 +88,9 @@ Detroit Become Human (2018)
 
 Star Wars Eclipse
 
-Fort de leurs succès precedants et du crédti
+Fort de leurs succès precedants et de la crédibilité qui en découle, Quantic Dream a réussi a avoir un accord commercial avec Disney et Lucas Film et travail actuellement sur leurs dernier jeu nommée "Star Wars Eclipse"
+
+Grâce à leurs succès précédents et à la crédibilité acquise, Quantic Dream a établi un partenariat avec Disney et Lucasfilm, et travaille actuellement sur leur nouveau jeu intitulé "Star Wars Eclipse". La sortie du jeu est prévu vers 2027 et aura un impact important vis à vis de l'image du studio. En effet, avec leurs
 
 # Ressources (pour produire la sitographie)
 
