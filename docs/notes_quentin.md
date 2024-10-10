@@ -82,7 +82,7 @@ La qualité narratifs associé à cette mécanique de jeu innovante sont les rai
 ---
 
 Detroit Become Human (2018)
-Édité par Sony Interactive Entertainment, "Detroit Become Human" sort en 2018 sur Playstation 4
+Édité par Sony Interactive Entertainment, "Detroit Become Human" sort en 2018 sur Playstation 4. C'est un jeu de science-fiction et action-aventure qui se déroule dans un univers ou les robots humanoïdes partagent le quotidien des êtres humains en étant à leurs services. Quantic Dream a su utiliser l'experience acquise durant les precedants developpements pour produire ce jeu à embranchements narratifs dans lequel l'histoire poignante à su marquer l'esprit des joueurs. C'est ainsi le plus gros succès du studio avec ... ventes et ... critique positives.
 
 # Ressources (pour produire la sitographie)
 
