@@ -3,6 +3,10 @@
 @import url("footer.css");
 @import url("colors.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }

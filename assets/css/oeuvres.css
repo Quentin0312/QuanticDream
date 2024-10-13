@@ -12,6 +12,7 @@
 
 .game-section {
   display: flex;
+  scroll-margin-top: 14vh;
 }
 
 .game-section-separator {
