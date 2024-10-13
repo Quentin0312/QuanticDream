@@ -53,3 +53,7 @@
   top: 6px;
   color: var(--primary);
 }
+
+.game-section-illustration span {
+  font-size: 75%;
+}
