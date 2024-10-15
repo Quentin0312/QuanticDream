@@ -135,6 +135,7 @@
 }
 
 .tooltip .right {
+  pointer-events: none;
   min-width: 220px;
   top: 50%;
   left: 100%;
@@ -150,11 +151,16 @@
   z-index: 99999999;
   box-sizing: border-box;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
-  display: none;
+  display: block;
+  visibility: hidden;
+  animation: slideOut 0.5s ease forwards;
+  transition: visibility 0.5s; /* Délai pour la visibilité */
 }
 
 .tooltip:hover .right {
   display: block;
+  visibility: visible;
+  animation: slideIn 0.5s ease forwards;
 }
 
 .tooltip .right i {
@@ -179,7 +185,7 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* PULSE */
+/* TIMELINE DOT PULSE */
 .pulse:not(:hover) {
   animation: pulse-animation 1s infinite;
 }
@@ -190,5 +196,28 @@
   }
   100% {
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+}
+
+/* TOOLTIP FADE */
+@keyframes slideIn {
+  from {
+    transform: translate(-20px, -50%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translate(0, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-20px, -50%);
+    opacity: 0;
   }
 }
