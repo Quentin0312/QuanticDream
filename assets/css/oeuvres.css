@@ -52,10 +52,10 @@
 }
 
 .game-timeline-dot-bis {
+  position: absolute;
   width: 15px;
   height: 15px;
   background-color: var(--dark);
-  position: absolute;
   /* top: 25px; */
   left: -59px;
   border-radius: 6px;
@@ -66,6 +66,14 @@
   left: -125px;
   top: 36px;
   color: var(--primary);
+}
+
+.game-timeline-date-bis {
+  position: absolute;
+  left: -110px;
+  /* top: 36px; */
+  color: var(--dark);
+  font-size: 90%;
 }
 
 .game-section-illustration span {
@@ -173,7 +181,7 @@
 
 /* PULSE */
 .pulse:not(:hover) {
-  animation: pulse-animation 2s infinite;
+  animation: pulse-animation 1s infinite;
 }
 
 @keyframes pulse-animation {
@@ -181,6 +189,6 @@
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
   100% {
-    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 }
