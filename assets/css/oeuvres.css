@@ -33,6 +33,10 @@
   line-height: 2.5;
 }
 
+.game-section-content-title {
+  position: relative;
+}
+
 .game-section-content-title a {
   position: relative;
 }
@@ -48,13 +52,13 @@
 }
 
 .game-timeline-dot-bis {
-  width: 10px;
-  height: 10px;
-  background-color: red;
+  width: 15px;
+  height: 15px;
+  background-color: var(--dark);
   position: absolute;
-  top: 25px;
-  left: -61px;
-  border-radius: 7px;
+  /* top: 25px; */
+  left: -59px;
+  border-radius: 6px;
 }
 
 .game-timeline-date {
@@ -112,4 +116,71 @@
 
 .game-section-content-title h2 {
   margin-right: 20px;
+}
+
+/* TOOLTIP */
+.tooltip {
+  display: inline-block;
+  position: relative;
+  /* border-bottom: 1px dotted #666; */
+  /* text-align: left; */
+}
+
+.tooltip .right {
+  min-width: 220px;
+  top: 50%;
+  left: 100%;
+  margin-left: 20px;
+  transform: translate(0, -50%);
+  padding: 10px 20px;
+  color: var(--dark);
+  background-color: var(--sky);
+  font-weight: normal;
+  font-size: 13px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 99999999;
+  box-sizing: border-box;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.tooltip:hover .right {
+  display: block;
+}
+
+.tooltip .right i {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -12px;
+  width: 12px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.tooltip .right i::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 0;
+  top: 50%;
+  transform: translate(50%, -50%) rotate(-45deg);
+  background-color: var(--sky);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* PULSE */
+.pulse:not(:hover) {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
 }
