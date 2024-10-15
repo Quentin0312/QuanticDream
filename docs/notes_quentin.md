@@ -105,6 +105,15 @@ Suite à la création de "Spotlight By Quantic Dream"
 Savoir faire - Narration
 Le savoir-faire du studio dans la narration provient des apprentissages liées à toutes les oeuvres réalisées. Chaque jeu développé par le studios a permit d'aborder un angle différents avec plus ou moins d'innovation du côté du gameplay ou de la narration. Certains comme "Heavy Rain" était basé sur la narration principalement alors que d'autres tel que "Beyond : Two Souls" avaient un gameplay plus riche. Detroit Become Human est considéré comme le jeu dans lequel le studio à réussi à mettre en oeuvre toutes ses qualités, et est donc en quelque sorte le résultat de toutes ces années d'exeperience. Ce savoir-faire est inegalé parmis la concurrence, en effet aucun autre studios de devellopement n'a un tel palmarès en matière de jeux narratifs.
 
+# Contenu de la page studio
+
+- studio de Paris
+- studio de Montreal
+- studio de motion capture
+- équipe de direction
+
+Video du studio de motion capture => https://www.youtube.com/watch?app=desktop&v=EQ1IIBOwcsU
+
 # Ressources (pour produire la sitographie)
 
 https://fr.wikipedia.org/wiki/Quantic_Dream (Wikipédia n'est pas un source...)
@@ -112,5 +121,3 @@ https://fr.wikipedia.org/wiki/Quantic_Dream (Wikipédia n'est pas un source...)
 https://www.quanticdream.com/
 
 https://www.quanticdream.com/fr/press
-
-Video du studio de motion capture => https://www.youtube.com/watch?app=desktop&v=EQ1IIBOwcsU

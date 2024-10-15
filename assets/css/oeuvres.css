@@ -57,3 +57,8 @@
 .game-section-illustration span {
   font-size: 75%;
 }
+
+.image-caption {
+  display: flex;
+  justify-content: center;
+}
