@@ -112,3 +112,5 @@ https://fr.wikipedia.org/wiki/Quantic_Dream (Wikipédia n'est pas un source...)
 https://www.quanticdream.com/
 
 https://www.quanticdream.com/fr/press
+
+Video du studio de motion capture => https://www.youtube.com/watch?app=desktop&v=EQ1IIBOwcsU

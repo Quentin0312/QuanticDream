@@ -1,11 +1,18 @@
 /* TODO : Aligner les titres des cards */
 
 #presentation-cards {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   margin-bottom: 50px;
+}
+
+.presentation-cards-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 50px; */
 }
 
 .presentation-card {
@@ -34,7 +41,7 @@
 .presentation-card-content {
   height: 25vh;
   text-align: center;
-  padding: 50px;
+  padding: 0 50px 50px 50px;
   display: flex;
   flex-direction: column !important;
   justify-content: center;
