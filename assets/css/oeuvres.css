@@ -33,7 +33,7 @@
   line-height: 2.5;
 }
 
-.game-section-content-title {
+.game-section-content-title a {
   position: relative;
 }
 
@@ -42,7 +42,17 @@
   height: 20px;
   background-color: var(--primary);
   position: absolute;
-  top: 6px;
+  top: 36px;
+  left: -61px;
+  border-radius: 7px;
+}
+
+.game-timeline-dot-bis {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  top: 25px;
   left: -61px;
   border-radius: 7px;
 }
@@ -50,15 +60,56 @@
 .game-timeline-date {
   position: absolute;
   left: -125px;
-  top: 6px;
+  top: 36px;
   color: var(--primary);
 }
 
 .game-section-illustration span {
-  font-size: 75%;
+  font-size: 100%;
 }
 
 .image-caption {
   display: flex;
   justify-content: center;
+}
+
+.platforms {
+  display: flex;
+  align-items: center;
+}
+
+.platform-windows {
+  margin-right: 5px;
+  font-size: 75%;
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+  padding: 3px 6px;
+  color: var(--primary);
+}
+
+.platform-dreamcast {
+  margin-right: 5px;
+  font-size: 75%;
+  border: 1px solid #d03009;
+  border-radius: 20px;
+  padding: 3px 6px;
+  color: #d03009;
+}
+
+.platform-playstation {
+  margin-right: 5px;
+  font-size: 75%;
+  border: 1px solid #083d94;
+  border-radius: 20px;
+  padding: 3px 6px;
+  color: #083d94;
+}
+
+.game-info-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-section-content-title h2 {
+  margin-right: 20px;
 }
