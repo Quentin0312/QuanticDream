@@ -282,6 +282,16 @@
   width: 80vw;
 }
 
+#quantic-dreams-studio,
+#quantic-dreams-label {
+  scroll-margin-top: 9vh;
+}
+
+.game-section-content-title a {
+  display: block;
+  width: fit-content;
+}
+
 /* TODO : Check with vidéo proj si ça passe */
 @media only screen and (max-width: 1650px) {
   #content > div {
