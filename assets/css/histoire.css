@@ -1,23 +1,34 @@
 .container {
     width: 80%;
-    margin: auto; /* Centrer le conteneur */
+    margin: auto; 
 }
 
 .texte-image {
-    display: flex; /* Utilise flexbox pour aligner les éléments */
-    align-items: center; /* Centre verticalement les éléments */
+    display: flex; 
+    align-items: center; 
 }
 
 .texte {
-    margin-right: 20px; /* Espace entre le texte et l'image */
+    margin-right: 20px; 
+    line-height: 1.5;
+}
+
+.image1 {
+    flex: 0 0 30%; 
+    margin-left: 15px; 
+}
+
+.image1 img {
+    width: 100%; 
+    height: auto; 
 }
 
 .image {
-    flex: 0 0 30%; /* Fixe la largeur de l'image à 30% */
-    margin-left: 20px; /* Ajoute un espacement à gauche de l'image */
+    flex: 0 0 40%; 
+    margin-left: 15px; 
 }
 
 .image img {
-    width: 100%; /* L'image prend toute la largeur de son conteneur */
-    height: auto; /* Ajuste la hauteur automatiquement pour garder le ratio */
+    width: 100%; 
+    height: auto; 
 }
