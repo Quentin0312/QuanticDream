@@ -1,65 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-    <!-- Fonts imports -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <!-- Fonts imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
-    <!-- Lealflet imports -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- Lealflet imports -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-    <!-- Custom files -->
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="assets/css/economie.css">
+  <!-- Custom files -->
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="assets/css/economie.css">
 
-    <title>Quantic Dream</title>
+  <title>Quantic Dream</title>
 
 </head>
 
 <body>
-      <nav id="navbar"></nav>
-      
-      <div style="position: relative; text-align: center">
-        <img src="assets/images/ecologie/wallpaper_under_the_waves.jpg" width="1920" height="644"
-            style="height: 250px ; width: 100%; object-fit: cover; object-position: top; filter: brightness(55%)" />
-        <h1 style="position: absolute; top: 25%; left: 50%; color: white;transform: translate(-50%,-50%);">Ecologie</h1>
-      </div>
-      <br>
-      <h2>Engagement environnemental à travers "Under the Waves"</h2>
-    Le jeu "Under the Waves" se déroule dans les profondeurs de l’océan, où le protagoniste explore un monde sous-marin tout en étant 
-    confronté à des questions introspectives et environnementales. Plus qu’une simple aventure narrative, le jeu se concentre sur les 
-    conséquences des actions humaines sur les écosystèmes marins, notamment la pollution des océans et l’exploitation des ressources sous-marines.
-    <br>
-    L’éditeur Quantic Dream, en partenariat avec des ONG environnementales comme Surfrider Foundation Europe, s’est servi du lancement de "Under the Waves"
-    pour sensibiliser à l'urgence de la protection des océans. Ce partenariat a permis de mener la campagne publicitaire du jeu en lien
-    avec différentes activité pour sensibiliser à l’écologie comme des campagnes de nettoyage des plages et de sensibilisation au recyclage des déchets plastiques.
-    Quantic Dream s'est alors engagé à utiliser la visibilité offerte par le jeu pour éduquer les joueurs à la sauvegarde de l'environnement marin
-    et aux efforts nécessaires pour lutter contre la pollution.
-      <br>
-      <h2>Mesures concrètes d'engagement écologique</h2>
-    Quantic Dream a pris plusieurs initiatives pour réduire l’impact environnemental de ses activités, tout en s’engageant àtravers le message de "Under the Waves". 
-    Cela inclut notamment des partenariats avec des ONG environnementales : La collaboration avec Surfrider Foundation Europe montre 
-    une volonté de s’impliquer activement dans la protection des océans. En plus de la sensibilisation, des actions concrètes comme des
-    nettoyages de plages ont été organisées en lien avec la sortie du jeu.
-    Quantic Dream s'efforce de réduire son impact environnemental, notamment en optimisant la consommation d'énergie 
-    et la gestion des ressources dans ses bureaux. Bien que l'entreprise ne publie pas de détails précis sur chaque initiative, 
-    elle adopte des pratiques alignées avec les standards de durabilité du secteur. Cela inclut des efforts pour rendre les espaces 
-    de travail plus efficaces énergétiquement et pour intégrer des méthodes de développement de jeux respectueuses de l'environnement. 
-      <br>
-      <footer id="footer"></footer>
-      <script src="script.js" type="module"></script>
+  <script>
+    document.body.style.visibility = "hidden";
+  </script>
+  <nav id="navbar"></nav>
+
+  <div style="position: relative; text-align: center">
+    <img src="assets/images/ecologie/wallpaper_under_the_waves.jpg" width="1920" height="644"
+      style="height: 250px ; width: 100%; object-fit: cover; object-position: top; filter: brightness(55%)" />
+    <h1 style="position: absolute; top: 25%; left: 50%; color: white;transform: translate(-50%,-50%);">Ecologie</h1>
+  </div>
+  <br>
+  <h2>Engagement environnemental à travers "Under the Waves"</h2>
+  Le jeu "Under the Waves" se déroule dans les profondeurs de l’océan, où le protagoniste explore un monde sous-marin
+  tout en étant
+  confronté à des questions introspectives et environnementales. Plus qu’une simple aventure narrative, le jeu se
+  concentre sur les
+  conséquences des actions humaines sur les écosystèmes marins, notamment la pollution des océans et l’exploitation des
+  ressources sous-marines.
+  <br>
+  L’éditeur Quantic Dream, en partenariat avec des ONG environnementales comme Surfrider Foundation Europe, s’est servi
+  du lancement de "Under the Waves"
+  pour sensibiliser à l'urgence de la protection des océans. Ce partenariat a permis de mener la campagne publicitaire
+  du jeu en lien
+  avec différentes activité pour sensibiliser à l’écologie comme des campagnes de nettoyage des plages et de
+  sensibilisation au recyclage des déchets plastiques.
+  Quantic Dream s'est alors engagé à utiliser la visibilité offerte par le jeu pour éduquer les joueurs à la sauvegarde
+  de l'environnement marin
+  et aux efforts nécessaires pour lutter contre la pollution.
+  <br>
+  <h2>Mesures concrètes d'engagement écologique</h2>
+  Quantic Dream a pris plusieurs initiatives pour réduire l’impact environnemental de ses activités, tout en s’engageant
+  àtravers le message de "Under the Waves".
+  Cela inclut notamment des partenariats avec des ONG environnementales : La collaboration avec Surfrider Foundation
+  Europe montre
+  une volonté de s’impliquer activement dans la protection des océans. En plus de la sensibilisation, des actions
+  concrètes comme des
+  nettoyages de plages ont été organisées en lien avec la sortie du jeu.
+  Quantic Dream s'efforce de réduire son impact environnemental, notamment en optimisant la consommation d'énergie
+  et la gestion des ressources dans ses bureaux. Bien que l'entreprise ne publie pas de détails précis sur chaque
+  initiative,
+  elle adopte des pratiques alignées avec les standards de durabilité du secteur. Cela inclut des efforts pour rendre
+  les espaces
+  de travail plus efficaces énergétiquement et pour intégrer des méthodes de développement de jeux respectueuses de
+  l'environnement.
+  <br>
+  <footer id="footer"></footer>
+  <script src="script.js" type="module"></script>
 </body>
 
 </html>

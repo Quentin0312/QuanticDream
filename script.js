@@ -15,3 +15,7 @@ insertNavbar();
 
 // Insert footer
 insertFooter();
+
+window.addEventListener("load", function () {
+  document.body.style.visibility = "visible";
+});
