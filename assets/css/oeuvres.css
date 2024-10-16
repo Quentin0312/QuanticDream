@@ -277,3 +277,29 @@
   object-fit: fill;
   object-position: center;
 }
+
+#content > div {
+  width: 80vw;
+}
+
+/* TODO : Check with vidéo proj si ça passe */
+@media only screen and (max-width: 1650px) {
+  #content > div {
+    width: auto;
+    margin-left: 12vw;
+    margin-right: 3vw;
+  }
+
+  .game-section-illustration {
+    margin-left: 25px;
+  }
+
+  h2.font-orbitron-regular {
+    margin-right: 10px;
+  }
+
+  #under-the-waves-title {
+    margin-right: 0;
+    width: 18vw;
+  }
+}
