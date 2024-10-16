@@ -1,15 +1,28 @@
 #content {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
-.box{
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 10px;
-    border: 2px;
-    border-radius: 40px;
+.container {
     display: grid; 
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: space-between;
+    gap: 20px; /* Espace entre les boîtes */
+    max-width: 100%; /* Largeur maximale de la grille */
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 40px;
+    margin: 5px;
+    max-width: 100%; /* Les boîtes ne dépassent pas leur conteneur */
+}
+
+h2{
+    float: left;
 }
