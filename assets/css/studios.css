@@ -2,3 +2,22 @@
   display: flex;
   justify-content: center;
 }
+
+.studio-page-content {
+  padding: 0 100px;
+}
+
+.studio-page-content p {
+  padding: 0 50px;
+}
+
+.studio-page-content img {
+  margin-bottom: 75px;
+  margin-top: 25px;
+}
+
+#direction,
+#studios,
+#motion-capture {
+  scroll-margin-top: 13vh;
+}
