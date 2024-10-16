@@ -17,3 +17,10 @@
 #motion-capture {
   scroll-margin-top: 13vh;
 }
+
+.studio-image-caption {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 75px;
+}
