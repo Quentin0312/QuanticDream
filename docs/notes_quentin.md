@@ -105,6 +105,14 @@ Suite à la création de "Spotlight By Quantic Dream"
 Savoir faire - Narration
 Le savoir-faire du studio dans la narration provient des apprentissages liées à toutes les oeuvres réalisées. Chaque jeu développé par le studios a permit d'aborder un angle différents avec plus ou moins d'innovation du côté du gameplay ou de la narration. Certains comme "Heavy Rain" était basé sur la narration principalement alors que d'autres tel que "Beyond : Two Souls" avaient un gameplay plus riche. Detroit Become Human est considéré comme le jeu dans lequel le studio à réussi à mettre en oeuvre toutes ses qualités, et est donc en quelque sorte le résultat de toutes ces années d'exeperience. Ce savoir-faire est inegalé parmis la concurrence, en effet aucun autre studios de devellopement n'a un tel palmarès en matière de jeux narratifs.
 
+# Timeline
+
+Dates :
+
+- 2007 portage sur xbox 360 de fahreneit
+- 2015 portage sur Android, Ios, Linux et MacOs de fahreneit
+- 2016 portage sur ps4 de fahreneit
+
 # Contenu de la page studio
 
 - studio de Paris

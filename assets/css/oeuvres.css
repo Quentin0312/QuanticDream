@@ -90,30 +90,34 @@
   align-items: center;
 }
 
-.platform-windows {
+.platform {
   margin-right: 5px;
   font-size: 75%;
-  border: 1px solid var(--primary);
   border-radius: 20px;
   padding: 3px 6px;
+}
+
+.platform-windows {
+  border: 1px solid var(--primary);
+
   color: var(--primary);
 }
 
+.platform-xbox {
+  border: 1px solid #57b249;
+
+  color: #57b249;
+}
+
 .platform-dreamcast {
-  margin-right: 5px;
-  font-size: 75%;
   border: 1px solid #d03009;
-  border-radius: 20px;
-  padding: 3px 6px;
+
   color: #d03009;
 }
 
 .platform-playstation {
-  margin-right: 5px;
-  font-size: 75%;
   border: 1px solid #083d94;
-  border-radius: 20px;
-  padding: 3px 6px;
+
   color: #083d94;
 }
 
