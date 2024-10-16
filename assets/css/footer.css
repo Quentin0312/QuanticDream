@@ -1,66 +1,90 @@
-/*footer {*/
-/*    border-top: 1px solid black;*/
-/*}*/
+footer {
+  padding-top: 50px;
+  background-color: var(--sky);
+}
 
 #footer-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 #page-credit {
-    text-align: center;
+  text-align: center;
 }
 
 #map {
-    height: 350px;
-    width: 500px;
+  height: 350px;
+  width: 500px;
 }
 
 /* Social buttons */
 
 #socials {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-#socials, #socials a, #youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo, #instagram-logo, #tiktok-logo, #vk-logo {
-    height: 29px;
+#socials,
+#socials a,
+#youtube-logo,
+#facebook-logo,
+#twitter-logo,
+#linkedin-logo,
+#instagram-logo,
+#tiktok-logo,
+#vk-logo {
+  height: 29px;
 }
 
-#youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo {
-    color: black;
+#youtube-logo,
+#facebook-logo,
+#twitter-logo,
+#linkedin-logo {
+  color: black;
 }
 
 #vk-logo:not(:hover) path:first-child {
-    fill: black;
+  fill: black;
 }
 
 #tiktok-logo:not(:hover) path:not(:nth-child(4)) {
-    fill: white;
+  fill: white;
 }
 
 #youtube-logo:hover {
-    color: red !important;
+  color: red !important;
 }
 
 #facebook-logo:hover {
-    color: #0884FF !important;
+  color: #0884ff !important;
 }
 
 #linkedin-logo:hover {
-    color: #0A76B4 !important;
+  color: #0a76b4 !important;
 }
 
 #instagram-logo:not(:hover) path:nth-child(4) {
-    fill: black !important;
+  fill: black !important;
 }
 
 /* Social buttons animation */
-#youtube-logo, #facebook-logo, #twitter-logo, #linkedin-logo, #instagram-logo, #tiktok-logo, #vk-logo {
-    transition: transform 0.2s;
-    transform-origin: center;
+#youtube-logo,
+#facebook-logo,
+#twitter-logo,
+#linkedin-logo,
+#instagram-logo,
+#tiktok-logo,
+#vk-logo {
+  transition: transform 0.2s;
+  transform-origin: center;
 }
 
-#youtube-logo:hover, #facebook-logo:hover, #twitter-logo:hover, #linkedin-logo:hover, #instagram-logo:hover, #tiktok-logo:hover, #vk-logo:hover {
-    transform: scale(1.2);
+#youtube-logo:hover,
+#facebook-logo:hover,
+#twitter-logo:hover,
+#linkedin-logo:hover,
+#instagram-logo:hover,
+#tiktok-logo:hover,
+#vk-logo:hover {
+  transform: scale(1.2);
 }

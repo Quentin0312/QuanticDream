@@ -21,7 +21,6 @@ function getPageAuhtor(activePage) {
 
 function createFooter(pageAuthor) {
   return `
-            <div>
         <div id="footer-content">
             <div class="footer-contacts">
                 <div>
@@ -127,7 +126,6 @@ function createFooter(pageAuthor) {
         <div id="page-credit">
             <span>Page réalisé par ${pageAuthor}</span>
         </div>
-    </div>
     `;
 }
 
