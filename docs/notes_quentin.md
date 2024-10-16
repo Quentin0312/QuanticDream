@@ -109,9 +109,13 @@ Le savoir-faire du studio dans la narration provient des apprentissages liées �
 
 Dates :
 
-- 2007 portage sur xbox 360 de fahreneit
-- 2015 portage sur Android, Ios, Linux et MacOs de fahreneit
-- 2016 portage sur ps4 de fahreneit
+- [x] 2007 portage sur xbox 360 de fahreneit
+- [ ] (2015 portage sur Android, Ios, Linux et MacOs de fahreneit)
+- [x] 2015 portage sur ps4 de beyond two souls
+- [ ] 2016 portage sur ps4 de fahreneit, heavy rain
+- [ ] 2019 Création de spotlight
+- [ ] 2019 portage sur windows de heayv rain, beyond two souls et detroit become human
+- [ ] 2021 création du studio de montréal
 
 # Contenu de la page studio
 

@@ -55,7 +55,7 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  background-color: var(--dark);
+  background-color: grey;
   /* top: 25px; */
   left: -59px;
   border-radius: 6px;
@@ -72,7 +72,7 @@
   position: absolute;
   left: -110px;
   /* top: 36px; */
-  color: var(--dark);
+  color: grey;
   font-size: 90%;
 }
 
@@ -145,7 +145,7 @@
   left: 100%;
   margin-left: 20px;
   transform: translate(0, -50%);
-  padding: 24px 20px 10px 20px;
+  padding: 24px 10px 10px 20px;
   color: var(--dark);
   background-color: var(--sky);
   font-weight: normal;
