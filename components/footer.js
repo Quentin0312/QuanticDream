@@ -9,7 +9,7 @@ function getPageAuhtor(activePage) {
     case "histoire":
       return "Kheira OUADAH";
     case "studios":
-      return "Quentin PAYET et Gabin MOREL";
+      return "Quentin PAYET";
     case "economie":
       return "Ethan RIETZ";
     case "ecologie":
