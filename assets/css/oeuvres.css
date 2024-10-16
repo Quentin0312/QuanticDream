@@ -244,4 +244,8 @@
 
 .game-section-illustration img {
   border-radius: 5px;
+  width: 26.5vw;
+  height: 15vw;
+  object-fit: fill;
+  object-position: center;
 }
