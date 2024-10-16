@@ -119,10 +119,10 @@ Dates :
 
 # Contenu de la page studio
 
+- équipe de direction
 - studio de Paris
 - studio de Montreal
 - studio de motion capture
-- équipe de direction
 
 Video du studio de motion capture => https://www.youtube.com/watch?app=desktop&v=EQ1IIBOwcsU
 
