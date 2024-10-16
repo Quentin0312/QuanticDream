@@ -1,5 +1,23 @@
-#page {
-    display: flex;
-    justify-content: center;
-  }
+.container {
+    width: 80%;
+    margin: auto; /* Centrer le conteneur */
+}
 
+.texte-image {
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+}
+
+.texte {
+    margin-right: 20px; /* Espace entre le texte et l'image */
+}
+
+.image {
+    flex: 0 0 30%; /* Fixe la largeur de l'image à 30% */
+    margin-left: 20px; /* Ajoute un espacement à gauche de l'image */
+}
+
+.image img {
+    width: 100%; /* L'image prend toute la largeur de son conteneur */
+    height: auto; /* Ajuste la hauteur automatiquement pour garder le ratio */
+}
