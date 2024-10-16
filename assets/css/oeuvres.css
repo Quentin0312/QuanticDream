@@ -141,7 +141,7 @@
   left: 100%;
   margin-left: 20px;
   transform: translate(0, -50%);
-  padding: 10px 20px;
+  padding: 24px 20px 10px 20px;
   color: var(--dark);
   background-color: var(--sky);
   font-weight: normal;
@@ -220,4 +220,8 @@
     transform: translate(-20px, -50%);
     opacity: 0;
   }
+}
+
+.platform-windows {
+  pointer-events: none;
 }
