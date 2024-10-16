@@ -229,3 +229,19 @@
 .platform-windows {
   pointer-events: none;
 }
+
+.image-caption-label {
+  margin-left: 5px;
+}
+
+.image-caption-editor {
+  margin-left: 30px;
+}
+
+.image-caption-genre {
+  margin-left: 38px;
+}
+
+.game-section-illustration img {
+  border-radius: 5px;
+}
