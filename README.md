@@ -40,7 +40,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_accueil.png)
 
-### Page histoire
+### Histoire
 
 **Auteur : OUADAH Kheira**
 
@@ -50,7 +50,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_histoire.png)
 
-### Page studios
+### Studios
 
 **Auteur : PAYET Quentin**
 
@@ -60,7 +60,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_studios.png)
 
-### Page oeuvres
+### Oeuvres
 
 **Auteur : PAYET Quentin**
 
@@ -70,7 +70,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_oeuvres.png)
 
-### Page résultats financiers
+### Résultats financiers
 
 **Auteur : RIETZ Ethan**
 
@@ -80,7 +80,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_economie.png)
 
-### Page écologie
+### Écologie
 
 **Auteur : MOREL Gabin**
 
