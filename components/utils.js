@@ -3,7 +3,10 @@ export function getActivePage() {
 
   const url = window.location.href;
   // TODO : Ajouter gitlab et bitbucket urls
-  if (url === "https://quentin0312.github.io/QuanticDream/") {
+  if (
+    url === "https://quentin0312.github.io/QuanticDream/" ||
+    url === "https://quantic-dream-621fd4.gitlab.io/"
+  ) {
     return "index";
   } else {
     return url.split("/").at(-1).split(".").at(0);
