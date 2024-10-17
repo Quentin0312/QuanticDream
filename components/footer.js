@@ -121,8 +121,8 @@ function createFooter(pageAuthor) {
                     </a>
                 </div>
             </div>
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d896.5401792725116!2d2.408303845734146!3d48.87992545500603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6727e3290e2dd%3A0x817bb84c4510d95e!2sQuantic%20Dream!5e1!3m2!1sfr!2sfr!4v1727957895505!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        --></div><br><br>
+            <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d896.5401792725116!2d2.408303845734146!3d48.87992545500603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6727e3290e2dd%3A0x817bb84c4510d95e!2sQuantic%20Dream!5e1!3m2!1sfr!2sfr!4v1727957895505!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><br><br>
         <div id="page-credit">
             <span>Page réalisé par ${pageAuthor}</span>
         </div>
