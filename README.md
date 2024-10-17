@@ -89,3 +89,40 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 ![capture d'écran de la conformité de la page oeuvres](doc/w3c_ecologie.png)
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_ecologie.png)
+
+## Répartition du travail
+
+### Planification - Diagramme de GANTT
+
+- PAYET Quentin
+
+### Recherches d'informations
+
+- OUADAH Kheira
+- MOREL Gabin
+- RIETZ Ethan
+- PAYET Quentin
+
+### Rapport économique
+
+- OUADAH Kheira
+- MOREL Gabin
+- RIETZ Ethan
+- PAYET Quentin
+
+### Développement du site
+
+- PAYET Quentin
+  - Page d’accueil
+  - Page studio
+  - Page oeuvres
+  - "Template" de page (Navbar/Footer)
+- MOREL Gabin
+  - Page écologie
+- RIETZ Ethan
+  - Page résultats financiers
+
+## Contributeurs
+
+TODO
+![capture d'écran de sur la contribution des membres du projet](TODO)
