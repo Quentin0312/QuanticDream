@@ -11,7 +11,7 @@ pages:
   script:
     # Créer le répertoire public
     - mkdir public
-    # Copier les fichiers dans ce répertoire
+    # Copier les fichiers dans ce répertoire (test)
     - cp -r * public/
   artifacts:
     paths:
