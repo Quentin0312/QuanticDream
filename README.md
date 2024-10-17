@@ -38,6 +38,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran de la conformité de la page accueil](doc/w3c_accueil.png)
 
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_accueil.png)
+
 ### Page histoire
 
 **Auteur : OUADAH Kheira**
@@ -46,6 +48,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran de la conformité de la page histoire](doc/w3c_histoire.png)
 
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_histoire.png)
+
 ### Page studios
 
 **Auteur : PAYET Quentin**
@@ -53,6 +57,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Fstudios.html)
 
 ![capture d'écran de la conformité de la page studios](doc/w3c_studios.png)
+
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_studios.png)
 
 ### Page oeuvres
 
@@ -70,6 +76,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ![capture d'écran de la conformité de la page oeuvres](doc/w3c_resultats_financiers.png)
 
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_economie.png)
+
 ### Page écologie
 
 **Auteur : MOREL Gabin**
@@ -77,3 +85,5 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Fecologie.html)
 
 ![capture d'écran de la conformité de la page oeuvres](doc/w3c_ecologie.png)
+
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/eco_ecologie.png)
