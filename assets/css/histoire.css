@@ -30,6 +30,16 @@
     height: auto; 
 }
 
+.image2, .image3 {
+    flex: 0 0 40%; 
+    height: auto; 
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column; 
+}
+
 .image2 {
     flex: 0 0 40%; 
     margin-left: 15px; 
