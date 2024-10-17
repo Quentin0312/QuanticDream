@@ -15,6 +15,7 @@ Etudiant 5 : [RIETZ Ethan](mailto:ethan.rietz@edu.univ-fcomte.fr?subject=SAE_1_0
 ## Présentation
 
 Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort. Ce site présente l'entreprise **Quantic Dream** et aborde :
+
 - son histoire
 - ses studios
 - ses réalisations
@@ -22,3 +23,57 @@ Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la S
 - le message écologique transmis à travers le jeu Under The Waves.
 
 Vous trouverez dans ce dépôt le code source du site développé.
+
+## Choix de conception
+
+TODO
+
+## Développement Site Web et Validation des pages
+
+### Page d'accueil
+
+**Auteur : PAYET Quentin**
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Findex.html)
+
+![capture d'écran de la conformité de la page accueil](doc/w3c_accueil.png)
+
+### Page histoire
+
+**Auteur : OUADAH Kheira**
+
+Vérification W3C : [Détail ICI](TODO)
+
+![capture d'écran de la conformité de la page histoire](doc/TODO)
+
+### Page studios
+
+**Auteur : PAYET Quentin**
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Fstudios.html)
+
+![capture d'écran de la conformité de la page studios](doc/w3c_studios.png)
+
+### Page oeuvres
+
+**Auteur : PAYET Quentin**
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Foeuvres.html)
+
+![capture d'écran de la conformité de la page oeuvres](doc/w3c_oeuvres.png)
+
+### Page résultats financiers
+
+**Auteur : RIETZ Ethan**
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Feconomie.html)
+
+![capture d'écran de la conformité de la page oeuvres](doc/w3c_resultats_financiers.png)
+
+### Page écologie
+
+**Auteur : MOREL Gabin**
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Fecologie.html)
+
+![capture d'écran de la conformité de la page oeuvres](doc/w3c_ecologie.png)
