@@ -1,16 +1,23 @@
+.title-image{
+    margin-bottom: 20px;
+}
+
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto; 
+    
 }
 
 .texte-image {
-    display: flex; 
+    display:flex; 
     align-items: center; 
 }
 
 .texte {
-    margin-right: 20px; 
+    margin-right: 10px; 
     line-height: 1.5;
+    margin-bottom: 60px;
+
 }
 
 .image1 {
@@ -23,12 +30,24 @@
     height: auto; 
 }
 
-.image {
+.image2 {
     flex: 0 0 40%; 
     margin-left: 15px; 
+    margin-bottom: 10px;
 }
 
-.image img {
+.image2 img {
+    width: 100%; 
+    height: auto; 
+}
+
+.image3 {
+    flex: 0 0 40%; 
+    margin: 15px; 
+
+}
+
+.image3 img {
     width: 100%; 
     height: auto; 
 }
