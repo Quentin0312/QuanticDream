@@ -17,9 +17,7 @@ function headHTML() {
 
 
     <!-- Custom files -->
-    <link rel="stylesheet" href="assets/css/global.css">
-
-    <title>Quantic Dream</title>`;
+    <link rel="stylesheet" href="assets/css/global.css">`;
 }
 
 export default function insertHead() {
