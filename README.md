@@ -42,9 +42,9 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : OUADAH Kheira**
 
-Vérification W3C : [Détail ICI](TODO)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fquentin0312.github.io%2FQuanticDream%2Fhistoire.html)
 
-![capture d'écran de la conformité de la page histoire](doc/TODO)
+![capture d'écran de la conformité de la page histoire](doc/w3c_histoire.png)
 
 ### Page studios
 
