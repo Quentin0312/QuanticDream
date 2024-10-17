@@ -5,7 +5,8 @@ export function getActivePage() {
   // TODO : Ajouter gitlab et bitbucket urls
   if (
     url === "https://quentin0312.github.io/QuanticDream/" ||
-    url === "https://quantic-dream-621fd4.gitlab.io/"
+    url === "https://quantic-dream-621fd4.gitlab.io/" ||
+    url === "https://saequanticdream.bitbucket.io/"
   ) {
     return "index";
   } else {
