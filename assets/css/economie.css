@@ -16,6 +16,7 @@ h1{
     width:80%;
 }
 figure {
+    display: flex;
     text-align: center;
 }
 
