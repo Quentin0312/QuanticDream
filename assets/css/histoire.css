@@ -41,7 +41,6 @@
 }
 
 .image2 {
-    flex: 0 0 40%; 
     margin-left: 15px; 
     margin-bottom: 10px;
 }
@@ -52,7 +51,6 @@
 }
 
 .image3 {
-    flex: 0 0 40%; 
     margin: 15px; 
 
 }
