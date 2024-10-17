@@ -1,20 +1,23 @@
 # The Docker image that will be used to build your app
 image: node:latest
-
 # Définir les étapes du pipeline (build uniquement pour GitLab Pages)
 stages:
   - deploy
-
 # Job de déploiement pour GitLab Pages
 pages:
   stage: deploy
   script:
     # Créer le répertoire public
-    - mkdir .public
+    - mkdir public
     # Copier les fichiers dans ce répertoire (test)
-    - cp -r * .public
+    - cp -r components/ public/ || true
+    - cp -r assets/ public/ || true
+    - cp *.html public/ || true
+    - cp *.js public/ || true
+    - cp .gitlab-ci.yml public/ || true
+    - cp *.md public/ || true
   artifacts:
     paths:
-      - .public
+      - public
   only:
     - main
