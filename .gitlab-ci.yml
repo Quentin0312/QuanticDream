@@ -1,0 +1,20 @@
+# The Docker image that will be used to build your app
+image: alpine:latest
+
+# Définir les étapes du pipeline (build uniquement pour GitLab Pages)
+stages:
+  - deploy
+
+# Job de déploiement pour GitLab Pages
+pages:
+  stage: deploy
+  script:
+    # Créer le répertoire public
+    - mkdir .public
+    # Copier les fichiers dans ce répertoire
+    - cp -r * .public/
+  artifacts:
+    paths:
+      - .public
+  only:
+    - main
