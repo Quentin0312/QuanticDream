@@ -26,7 +26,7 @@ Vous trouverez dans ce dépôt le code source du site développé.
 
 ## Choix de conception
 
-TODO
+Pour la charte graphique nous nous sommes inspiré des couleurs de Quantic Dream nottement présent sur leur [site officiel.](https://www.quanticdream.com/fr) Pour la structure des pages nous nous nous sommes inspiré du site [momandpopcorn](https://momandpopcorn.com/). Ensuite, les échanges avec le client via les questionnaires 1 et 2 ont permis d'adapter notre visions aux attentes et besoins du client.
 
 ## Développement Site Web et Validation des pages
 
@@ -124,5 +124,4 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 ## Contributeurs
 
-TODO
-![capture d'écran de sur la contribution des membres du projet](TODO)
+![capture d'écran de sur la contribution des membres du projet](doc/github_insights.png)
