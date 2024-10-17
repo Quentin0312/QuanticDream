@@ -1,3 +1,6 @@
+.econ{
+    width: max-content;
+}
 .content {
     display: flex;
     flex-direction: column;
