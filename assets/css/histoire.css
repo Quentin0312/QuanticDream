@@ -5,7 +5,7 @@
 .container {
     width: 70%;
     margin: auto; 
-    
+    margin-bottom: 20px;
 }
 
 .texte-image {
@@ -33,6 +33,13 @@
 .image2, .image3 {
     flex: 0 0 40%; 
     height: auto; 
+}
+
+
+.caption {
+    font-size: 12px; 
+    margin-top: 5px; 
+    max-width: 100%;
 }
 
 .images-container {
