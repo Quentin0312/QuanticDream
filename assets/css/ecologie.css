@@ -15,7 +15,7 @@
 .images {
     display: flex;
     justify-content: center; 
-    gap: 5px;
+    gap: 2%;
 }
 
 .images img {
