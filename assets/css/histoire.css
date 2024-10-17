@@ -38,6 +38,7 @@
 .images-container {
     display: flex;
     flex-direction: column; 
+    
 }
 
 .image2 {
