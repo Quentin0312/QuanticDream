@@ -8,9 +8,19 @@ h1{
 }
 
 .content_graph{
-    
+    display: flex;
+    justify-content: center;
 }
 
 .graph{
-    
+    width:80%;
+}
+figure {
+    text-align: center;
+}
+
+span {
+    font-size: 14px;
+    color: grey;
+    margin-top: 8px;
 }
