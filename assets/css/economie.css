@@ -10,6 +10,7 @@ h1{
 .content_graph{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .graph{
