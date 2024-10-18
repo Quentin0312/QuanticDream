@@ -26,7 +26,7 @@ Vous trouverez dans ce dépôt le code source du site développé.
 
 ## Choix de conception
 
-Pour la charte graphique nous nous sommes inspiré des couleurs de Quantic Dream nottement présent sur leur [site officiel.](https://www.quanticdream.com/fr) Pour la structure des pages nous nous nous sommes inspiré du site [momandpopcorn](https://momandpopcorn.com/). Ensuite, les échanges avec le client via les questionnaires 1 et 2 ont permis d'adapter notre visions aux attentes et besoins du client.
+Pour la charte graphique nous nous sommes inspiré des couleurs de Quantic Dream, notamment présent sur leur [site officiel.](https://www.quanticdream.com/fr) Pour la structure des pages nous nous nous sommes inspiré du site [momandpopcorn](https://momandpopcorn.com/). Ensuite, les échanges avec le client via les questionnaires 1 et 2 ont permis d'adapter notre vision aux attentes et besoins du client.
 
 ## Développement Site Web et Validation des pages
 
@@ -114,13 +114,18 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 - PAYET Quentin
   - Page d’accueil
-  - Page studio
+  - Page studios
   - Page oeuvres
   - "Template" de page (Navbar/Footer)
+  - Déploiement sur Github Page
+  - Déploiement sur GitLab
 - MOREL Gabin
   - Page écologie
 - RIETZ Ethan
   - Page résultats financiers
+  - Déploiement sur Bitbucket
+- OUADAH Kheira
+  - Page histoire
 
 ## Contributeurs
 
