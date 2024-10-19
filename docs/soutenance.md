@@ -74,4 +74,5 @@ https://moodle.univ-fcomte.fr/pluginfile.php/1743612/mod_resource/content/7/6_SA
       - Moins sous-estimer le temps de réalisation des tâches
 
   - Que retirer de positif dans ce projet ?
-    - ?
+    - Montée en compétences (HTML,CSS)
+    - Découverte de gitlab, bitbucket (et github)
