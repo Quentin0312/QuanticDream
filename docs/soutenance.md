@@ -75,4 +75,4 @@ https://moodle.univ-fcomte.fr/pluginfile.php/1743612/mod_resource/content/7/6_SA
 
   - Que retirer de positif dans ce projet ?
     - Montée en compétences (HTML,CSS)
-    - Découverte de gitlab, bitbucket (et github)
+    - Découverte de git, gitlab, bitbucket (et github)
