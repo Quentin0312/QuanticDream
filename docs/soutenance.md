@@ -24,7 +24,7 @@ https://moodle.univ-fcomte.fr/pluginfile.php/1743612/mod_resource/content/7/6_SA
 
 # Plan
 
-- Introduction : présentation du groupe, du sujet et des raisons de ce choix (1 à 2 min)
+- **Gabin** Introduction : présentation du groupe, du sujet et des raisons de ce choix (1 à 2 min)
 
   - présentation de l’intitulé de l’exposé oral et du groupe
   - présentation du plan
@@ -32,21 +32,21 @@ https://moodle.univ-fcomte.fr/pluginfile.php/1743612/mod_resource/content/7/6_SA
 
 - Démonstration (doit montrer toutes les pages) (5 à 7 min)
 
-  - Contraintes 1 pages par personne => proposition du contenu de ces pages aux clients dans quest 1 validé (chaque thématiques abordé correspond à un aspect de l'entreprise qui est mis en avant)
-  - Organisation => Chacun travaille sur le thématique pour sa page est sa partie du rapport (base de la répartition du travail avant le Gantt pour que tout le monde puisse commencer à faire ses recherches)
+  - **Ethan** Contraintes 1 pages par personne => proposition du contenu de ces pages aux clients dans quest 1 validé (chaque thématiques abordé correspond à un aspect de l'entreprise qui est mis en avant)
+  - **Ethan** Organisation => Chacun travaille sur le thématique pour sa page est sa partie du rapport (base de la répartition du travail avant le Gantt pour que tout le monde puisse commencer à faire ses recherches)
   - Quest 1 :
-    - Présentation du wireframe choisi par le client
+    - **Kheira** Présentation du wireframe choisi par le client
   - Quest 2 :
 
     - Style file :
-      - Validation du contenu et visuel du footer
-      - Validation du visuel de la navbar (taille à augmenter légérement)
-      - 2 palettes de couleurs proposées
-      - 2 fonts + style des titres
-    - Explication du problème de la position de la navbar (démo ou gif)
+      - **Quentin** Validation du contenu et visuel du footer
+      - **Quentin** Validation du visuel de la navbar (taille à augmenter légérement)
+      - **Kheira** 2 palettes de couleurs proposées
+      - **Kheira** 2 fonts + style des titres
+    - **Quentin** Explication du problème de la position de la navbar (démo ou gif)
       - Proposition dans le quest 2 => validé
 
-  - Cohérence du site : (zoning et wireframe produite mais pas de maquette (correspond plus au travail de designer => long, fastidueux donc pas adapté a notre projet)) mais comme pas de maquette sur lequel se reposer, il a fallu faire attention à la cohérence visuelle de toutes les pages du site
+  - **Quentin** Cohérence du site : (zoning et wireframe produite mais pas de maquette (correspond plus au travail de designer => long, fastidueux donc pas adapté a notre projet)) mais comme pas de maquette sur lequel se reposer, il a fallu faire attention à la cohérence visuelle de toutes les pages du site
 
     - Solutions apportées :
 
@@ -54,18 +54,18 @@ https://moodle.univ-fcomte.fr/pluginfile.php/1743612/mod_resource/content/7/6_SA
       - Discussion pour se mettre d'accord (ex: marge et tires de pages)
         - Petite démo pages (Studios, Histoire, écologie et résultat financiers) (montrer les titres et les marges)
 
-    - Exception : Page Oeuvres
+    - **Quentin** Exception : Page Oeuvres
       - Petite démo (timeline, tooltip, partie 1 puis partie 2, titres cliquables)
 
 - Conclusion : Bilan et perspectives (3 min)
 
-  - Que reste-t-il à faire, à améliorer ?
+  - **Ethan** Que reste-t-il à faire, à améliorer ?
 
     - Responsivité
     - Ajouter / peaufiner (améliorer l'expresssion)le contenu des pages
     - Ajouter une traduction anglaise
 
-  - Que changeriez-vous si vous refaisiez ce projet ?
+  - **Quentin** Que changeriez-vous si vous refaisiez ce projet ?
 
     - Organisation ? Problèmes rencontrés
       - Gantt, previsionel et réel ?
@@ -73,6 +73,6 @@ https://moodle.univ-fcomte.fr/pluginfile.php/1743612/mod_resource/content/7/6_SA
       - Bien travailler avec des deadlines liées au livrables ! Et pas s'en éloigner (gitlab et bitbucket sous-estimé => simple en réalité mais avec la pression ça begaye)
       - Moins sous-estimer le temps de réalisation des tâches
 
-  - Que retirer de positif dans ce projet ?
+  - **Kheira** Que retirer de positif dans ce projet ?
     - Montée en compétences (HTML,CSS)
     - Découverte de git, gitlab, bitbucket (et github)
