@@ -11,7 +11,7 @@ function getPageAuhtor(activePage) {
     case "studios":
       return "Quentin PAYET";
     case "economie":
-      return "Ethan RIETZ";
+      return "Ethan RIETZ.";
     case "ecologie":
       return "Gabin MOREL.";
     default:
